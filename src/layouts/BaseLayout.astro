@@ -1,0 +1,42 @@
+---
+const {
+  title = 'Welmoa',
+  description = '사회복지 실무자를 위한 도구와 콘텐츠 플랫폼',
+} = Astro.props;
+---
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="brand">Welmoa</a>
+
+        <nav>
+          <a href="/">홈</a>
+          <a href="/blog">콘텐츠</a>
+          <a href="/about">소개</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 Welmoa. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

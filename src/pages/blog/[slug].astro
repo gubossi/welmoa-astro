@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog')).filter((post) => !post.data.draft);
+
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout
+  title={`${post.data.title} | Welmoa`}
+  description={post.data.description}
+>
+  <section class="container section">
+    <article class="post-detail">
+      <a class="back-link" href="/blog/">← 콘텐츠 목록</a>
+
+      <a class="post-category" href={`/blog/category/${post.data.category}/`}>
+  {post.data.category}
+</a>
+      <h1>{post.data.title}</h1>
+      <p class="post-lead">{post.data.description}</p>
+      <div class="post-meta">
+        {post.data.pubDate.toLocaleDateString('ko-KR')}
+      </div>
+
+      <hr />
+
+      <div class="post-content">
+        <Content />
+      </div>
+    </article>
+  </section>
+</BaseLayout>

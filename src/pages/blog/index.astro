@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('blog'))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title="콘텐츠 | Welmoa"
+  description="사회복지 실무자를 위한 급여, 노무, 행정, 공모사업 콘텐츠 모음"
+>
+  <section class="container section">
+    <div class="badge">Welmoa 콘텐츠</div>
+    <h1 class="page-title">사회복지 실무 콘텐츠</h1>
+    <p class="page-desc">
+      급여·노무, 행정, 공모사업, 프로그램 운영 등 현장에서 필요한 내용을 정리합니다.
+    </p>
+
+    <div class="post-grid">
+      {posts.map((post) => (
+        <article class="post-card">
+          <a class="post-category" href={`/blog/category/${post.data.category}/`}>
+  {post.data.category}
+</a>
+          <h2>
+            <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+          </h2>
+          <p>{post.data.description}</p>
+          <div class="post-meta">
+            {post.data.pubDate.toLocaleDateString('ko-KR')}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
