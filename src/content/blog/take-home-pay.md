@@ -4,6 +4,7 @@ description: "2026년 기준 사회복지사 월급 실수령액 계산 방법�
 pubDate: 2026-04-17
 category: "실무 가이드"
 draft: false
+featured: true
 ---
 
 실무 가이드

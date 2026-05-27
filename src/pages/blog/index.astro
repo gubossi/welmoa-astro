@@ -6,8 +6,15 @@ const posts = (await getCollection('blog'))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const featured = posts.slice(0, 3);
-const latest = posts.slice(3, 9);
+const featured = posts
+  .filter((post) => post.data.featured)
+  .slice(0, 3);
+
+const featuredIds = new Set(featured.map((post) => post.id));
+
+const latest = posts
+  .filter((post) => !featuredIds.has(post.id))
+  .slice(0, 9);
 const categories = [...new Set(posts.map((post) => post.data.category))];
 ---
 
