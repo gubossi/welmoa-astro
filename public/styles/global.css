@@ -504,3 +504,25 @@ nav a {
   justify-content: center;
   margin-top: 30px;
 }
+
+.search-box {
+  margin: 18px 0 24px;
+}
+
+.search-box input {
+  width: 100%;
+  max-width: 520px;
+  min-height: 48px;
+  padding: 0 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 16px;
+  background: #ffffff;
+  color: #0f172a;
+  font-size: 1rem;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}

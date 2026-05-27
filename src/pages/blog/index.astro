@@ -69,6 +69,14 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
         <h2>전체 콘텐츠</h2>
         <p>최신순으로 정리된 Welmoa 실무 콘텐츠입니다.</p>
       </div>
+      <div class="search-box">
+        <input
+          id="postSearch"
+          type="search"
+          placeholder="제목이나 설명으로 검색해 보세요"
+          aria-label="콘텐츠 검색"
+        />
+      </div>
     </div>
 
     <div class="post-list">
@@ -91,4 +99,17 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       <a class="btn secondary" href="/blog/archive/">전체 글 보기</a>
     </div>
   </section>
+  <script>
+  const input = document.querySelector('#postSearch');
+  const cards = document.querySelectorAll('.list-card');
+
+  input?.addEventListener('input', () => {
+    const keyword = input.value.toLowerCase().trim();
+
+    cards.forEach((card) => {
+      const text = card.textContent?.toLowerCase() || '';
+      card.style.display = text.includes(keyword) ? 'grid' : 'none';
+    });
+  });
+</script>
 </BaseLayout>
