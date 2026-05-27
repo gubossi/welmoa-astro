@@ -82,7 +82,8 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       </div>
     </div>
 
-    <div class="post-list">
+    <div class="default-posts">
+     <div class="post-list">
       {latest.map((post) => (
         <article class="list-card">
           <div>
@@ -97,10 +98,11 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
           <span>{post.data.pubDate.toLocaleDateString('ko-KR')}</span>
         </article>
       ))}
+     </div>
     </div>
     <div class="search-results" hidden>
-  {allSearchPosts.map((post) => (
-    <article class="list-card search-card">
+     {allSearchPosts.map((post) => (
+      <article class="list-card search-card">
       <div>
         <a class="post-category" href={`/blog/category/${post.data.category}/`}>
           {post.data.category}
@@ -111,36 +113,33 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
         <p>{post.data.description}</p>
       </div>
       <span>{post.data.pubDate.toLocaleDateString('ko-KR')}</span>
-    </article>
-  ))}
-</div>
+      </article>
+     ))}
+    </div>
     <div class="more-actions">
       <a class="btn secondary" href="/blog/archive/">전체 글 보기</a>
     </div>
   </section>
 <script>
   const input = document.querySelector('#postSearch');
-  const postList = document.querySelector('.post-list');
+  const defaultPosts = document.querySelector('.default-posts');
   const searchResults = document.querySelector('.search-results');
   const searchCards = document.querySelectorAll('.search-card');
 
-  input?.addEventListener('input', () => {
-    const keyword = input.value.toLowerCase().trim();
+  input?.addEventListener('input', (e) => {
+    const keyword = e.target.value.toLowerCase().trim();
 
-    if (!keyword) {
-      postList?.removeAttribute('hidden');
-      searchResults?.setAttribute('hidden', '');
-      searchCards.forEach((card) => {
-        card.style.display = 'grid';
-      });
+    if (keyword === '') {
+      defaultPosts.style.display = 'block';
+      searchResults.hidden = true;
       return;
     }
 
-    postList?.setAttribute('hidden', '');
-    searchResults?.removeAttribute('hidden');
+    defaultPosts.style.display = 'none';
+    searchResults.hidden = false;
 
     searchCards.forEach((card) => {
-      const text = card.textContent?.toLowerCase() || '';
+      const text = card.textContent.toLowerCase();
       card.style.display = text.includes(keyword) ? 'grid' : 'none';
     });
   });
