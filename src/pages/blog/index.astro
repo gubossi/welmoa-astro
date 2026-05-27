@@ -15,6 +15,9 @@ const featuredIds = new Set(featured.map((post) => post.id));
 const latest = posts
   .filter((post) => !featuredIds.has(post.id))
   .slice(0, 9);
+const allSearchPosts = posts.filter(
+  (post) => !featuredIds.has(post.id)
+);
 const categories = [...new Set(posts.map((post) => post.data.category))];
 ---
 
@@ -95,18 +98,48 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
         </article>
       ))}
     </div>
+    <div class="search-results" hidden>
+  {allSearchPosts.map((post) => (
+    <article class="list-card search-card">
+      <div>
+        <a class="post-category" href={`/blog/category/${post.data.category}/`}>
+          {post.data.category}
+        </a>
+        <h3>
+          <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+        </h3>
+        <p>{post.data.description}</p>
+      </div>
+      <span>{post.data.pubDate.toLocaleDateString('ko-KR')}</span>
+    </article>
+  ))}
+</div>
     <div class="more-actions">
       <a class="btn secondary" href="/blog/archive/">전체 글 보기</a>
     </div>
   </section>
-  <script>
+<script>
   const input = document.querySelector('#postSearch');
-  const cards = document.querySelectorAll('.list-card');
+  const postList = document.querySelector('.post-list');
+  const searchResults = document.querySelector('.search-results');
+  const searchCards = document.querySelectorAll('.search-card');
 
   input?.addEventListener('input', () => {
     const keyword = input.value.toLowerCase().trim();
 
-    cards.forEach((card) => {
+    if (!keyword) {
+      postList?.removeAttribute('hidden');
+      searchResults?.setAttribute('hidden', '');
+      searchCards.forEach((card) => {
+        card.style.display = 'grid';
+      });
+      return;
+    }
+
+    postList?.setAttribute('hidden', '');
+    searchResults?.removeAttribute('hidden');
+
+    searchCards.forEach((card) => {
       const text = card.textContent?.toLowerCase() || '';
       card.style.display = text.includes(keyword) ? 'grid' : 'none';
     });
