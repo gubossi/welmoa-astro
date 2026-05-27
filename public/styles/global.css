@@ -415,3 +415,26 @@ nav a {
     grid-template-columns: 1fr;
   }
 }
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #475569;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  color: #2563eb;
+}
