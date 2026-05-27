@@ -3,46 +3,68 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  const posts = (await getCollection('blog')).filter((post) => !post.data.draft);
+  const posts = await getCollection('blog');
 
   const categories = [...new Set(posts.map((post) => post.data.category))];
 
   return categories.map((category) => ({
-    params: { category },
-    props: {
-      category,
-      posts: posts.filter((post) => post.data.category === category),
-    },
+    params: { category }
   }));
 }
 
-const { category, posts } = Astro.props;
+const { category } = Astro.params;
+
+const posts = (await getCollection('blog'))
+  .filter(
+    (post) =>
+      !post.data.draft &&
+      post.data.category === category
+  )
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <BaseLayout
-  title={`${category} 콘텐츠 | Welmoa`}
-  description={`${category} 관련 사회복지 실무 콘텐츠 모음`}
+  title={`${category} | Welmoa`}
+  description={`${category} 관련 사회복지 실무 콘텐츠`}
 >
+  <section class="blog-hero">
+    <div class="container">
+      <div class="badge">{category}</div>
+
+      <h1>{category} 실무 콘텐츠</h1>
+
+      <p>
+        Welmoa에서 정리한 {category} 관련 사회복지 실무 콘텐츠 모음입니다.
+      </p>
+    </div>
+  </section>
+
   <section class="container section">
-    <a class="back-link" href="/blog/">← 전체 콘텐츠</a>
+    <a class="back-link" href="/blog/">← 콘텐츠 메인으로</a>
 
-    <div class="badge">카테고리</div>
-    <h1 class="page-title">{category}</h1>
-    <p class="page-desc">
-      {category} 관련 사회복지 실무 콘텐츠를 모았습니다.
-    </p>
-
-    <div class="post-grid">
+    <div class="post-list">
       {posts.map((post) => (
-        <article class="post-card">
-          <div class="post-category">{post.data.category}</div>
-          <h2>
-            <a href={`/blog/${post.id}/`}>{post.data.title}</a>
-          </h2>
-          <p>{post.data.description}</p>
-          <div class="post-meta">
-            {post.data.pubDate.toLocaleDateString('ko-KR')}
+        <article class="list-card">
+          <div>
+            <a
+              class="post-category"
+              href={`/blog/category/${post.data.category}/`}
+            >
+              {post.data.category}
+            </a>
+
+            <h3>
+              <a href={`/blog/${post.id}/`}>
+                {post.data.title}
+              </a>
+            </h3>
+
+            <p>{post.data.description}</p>
           </div>
+
+          <span>
+            {post.data.pubDate.toLocaleDateString('ko-KR')}
+          </span>
         </article>
       ))}
     </div>
