@@ -5,32 +5,78 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const posts = (await getCollection('blog'))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const featured = posts.slice(0, 3);
+const latest = posts.slice(3);
+const categories = [...new Set(posts.map((post) => post.data.category))];
 ---
 
 <BaseLayout
-  title="콘텐츠 | Welmoa"
-  description="사회복지 실무자를 위한 급여, 노무, 행정, 공모사업 콘텐츠 모음"
+  title="사회복지 실무 콘텐츠 | Welmoa"
+  description="사회복지 실무자를 위한 급여, 노무, 행정, 공모사업, 프로그램 운영 콘텐츠 모음"
 >
-  <section class="container section">
-    <div class="badge">Welmoa 콘텐츠</div>
-    <h1 class="page-title">사회복지 실무 콘텐츠</h1>
-    <p class="page-desc">
-      급여·노무, 행정, 공모사업, 프로그램 운영 등 현장에서 필요한 내용을 정리합니다.
-    </p>
+  <section class="blog-hero">
+    <div class="container">
+      <div class="badge">Welmoa 콘텐츠</div>
+      <h1>사회복지 실무자를 위한<br />급여 · 노무 · 행정 아카이브</h1>
+      <p>
+        현장에서 자주 찾는 급여, 근로기준, 행정문서, 공모사업 정보를
+        실무자 관점에서 정리합니다.
+      </p>
 
-    <div class="post-grid">
-      {posts.map((post) => (
-        <article class="post-card">
+      <div class="quick-links">
+        {categories.map((category) => (
+          <a href={`/blog/category/${category}/`}>{category}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <h2>추천 콘텐츠</h2>
+        <p>처음 방문한 실무자가 먼저 보면 좋은 글입니다.</p>
+      </div>
+    </div>
+
+    <div class="featured-grid">
+      {featured.map((post) => (
+        <article class="featured-card">
           <a class="post-category" href={`/blog/category/${post.data.category}/`}>
-  {post.data.category}
-</a>
-          <h2>
+            {post.data.category}
+          </a>
+          <h3>
             <a href={`/blog/${post.id}/`}>{post.data.title}</a>
-          </h2>
+          </h3>
           <p>{post.data.description}</p>
-          <div class="post-meta">
-            {post.data.pubDate.toLocaleDateString('ko-KR')}
+          <span>{post.data.pubDate.toLocaleDateString('ko-KR')}</span>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <h2>전체 콘텐츠</h2>
+        <p>최신순으로 정리된 Welmoa 실무 콘텐츠입니다.</p>
+      </div>
+    </div>
+
+    <div class="post-list">
+      {latest.map((post) => (
+        <article class="list-card">
+          <div>
+            <a class="post-category" href={`/blog/category/${post.data.category}/`}>
+              {post.data.category}
+            </a>
+            <h3>
+              <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+            </h3>
+            <p>{post.data.description}</p>
           </div>
+          <span>{post.data.pubDate.toLocaleDateString('ko-KR')}</span>
         </article>
       ))}
     </div>
