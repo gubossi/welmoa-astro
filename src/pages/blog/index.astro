@@ -7,7 +7,7 @@ const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const featured = posts.slice(0, 3);
-const latest = posts.slice(3);
+const latest = posts.slice(3, 9);
 const categories = [...new Set(posts.map((post) => post.data.category))];
 ---
 
@@ -79,6 +79,9 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
           <span>{post.data.pubDate.toLocaleDateString('ko-KR')}</span>
         </article>
       ))}
+    </div>
+    <div class="more-actions">
+      <a class="btn secondary" href="/blog/archive/">전체 글 보기</a>
     </div>
   </section>
 </BaseLayout>

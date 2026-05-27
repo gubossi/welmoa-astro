@@ -438,3 +438,69 @@ nav a {
 .footer-links a:hover {
   color: #2563eb;
 }
+
+.featured-grid {
+  grid-template-columns: 1.3fr 1fr 1fr;
+  align-items: stretch;
+}
+
+.featured-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 280px;
+  padding: 30px;
+  border-radius: 30px;
+  background:
+    linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(255, 255, 255, 0.95)),
+    #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-card:hover,
+.list-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.1);
+}
+
+.featured-card h3 {
+  font-size: 1.35rem;
+}
+
+.featured-card:first-child h3 {
+  font-size: 1.7rem;
+}
+
+.post-category {
+  width: fit-content;
+}
+
+.post-list {
+  gap: 12px;
+}
+
+.list-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-card h3 a:hover,
+.featured-card h3 a:hover {
+  color: #2563eb;
+}
+
+.list-card p {
+  max-width: 760px;
+}
+
+@media (max-width: 900px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.more-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
