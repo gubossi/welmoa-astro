@@ -533,6 +533,7 @@ nav a {
 
 .post-content table {
   width: 100%;
+  table-layout: auto;
   border-collapse: collapse;
   margin: 24px 0;
   overflow: hidden;
@@ -552,6 +553,7 @@ nav a {
   border-bottom: 1px solid #e5e7eb;
   text-align: left;
   vertical-align: top;
+  white-space: normal;
 }
 
 .post-content th {
@@ -565,16 +567,6 @@ nav a {
 
 .post-content tbody tr:hover {
   background: #f8fafc;
-}
-
-.post-content {
-  overflow-x: hidden;
-}
-
-.post-content table {
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
 }
 
 .info-box {
