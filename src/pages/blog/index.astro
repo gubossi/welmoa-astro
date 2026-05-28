@@ -53,14 +53,14 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
     <div class="featured-grid">
       {featured.map((post) => (
         <article class="featured-card">
-          <img
+<img
   class="card-thumb"
   src={
-    post.data.category === '급여 안내'
+    post.data.category.includes('급여')
       ? '/images/categories/salary.png'
-      : post.data.category === '인사·노무'
+      : post.data.category.includes('인사') || post.data.category.includes('노무')
       ? '/images/categories/labor.png'
-      : post.data.category === '행정 실무'
+      : post.data.category.includes('행정') || post.data.category.includes('회계')
       ? '/images/categories/admin.png'
       : '/images/categories/grant.png'
   }
