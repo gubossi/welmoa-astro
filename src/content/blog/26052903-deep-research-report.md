@@ -1,3 +1,11 @@
+---
+title: "2026년 비영리 조직의 AI 활용 수준 분석 보고서"
+description: "2022~2026년의 최신 설문, 보고서, 정부·규제 가이드, 학술·실무 자료를 바탕으로 한국과 미국·영국·EU·일본·호주의 비영리 조직 AI 활용 수준을 비교했습니다"
+pubDate: 2026-05-29
+category: "AI"
+draft: false
+---
+
 # 2026년 비영리 조직의 AI 활용 수준 분석 보고서
 
 ## Executive Summary
@@ -192,3 +200,4 @@ flowchart LR
 - 실패 사례는 “챗봇 대체”가 아니라 **인간전문가 보조와 안전한 escalation 설계**가 중요함을 보여준다. citeturn42news18turn39search2
 - 향후 3년의 핵심 과제는 **AI 도입 자체가 아니라 정책·데이터·책임성의 표준화**다. citeturn30search4turn34search1turn31search6turn32search5
 - 가장 효과적인 시작점은 **전사 정책 1개, 승인도구 목록, 저위험 파일럿 2~3개, 교육 체계, 데이터 보호 기준**을 동시에 만드는 것이다. citeturn43search3turn43search0turn31search9
+
