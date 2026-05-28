@@ -63,7 +63,7 @@ const {
 
     const div = document.createElement('div');
     div.className = 'mermaid';
-    div.innerHTML = block.textContent;
+    div.textContent = block.textContent;
 
     parent.replaceWith(div);
   });
