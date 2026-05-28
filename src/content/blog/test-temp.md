@@ -3,7 +3,7 @@ title: "테스트"
 description: "테스트"
 pubDate: 2026-05-28
 category: "기타"
-draft: true
+draft: false
 ---
 
 테스트
