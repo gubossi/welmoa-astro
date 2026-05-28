@@ -391,7 +391,7 @@ nav a {
 
 .list-card {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 220px 1fr auto;
   gap: 24px;
   align-items: start;
   padding: 24px 26px;
