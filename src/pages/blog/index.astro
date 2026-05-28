@@ -53,6 +53,19 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
     <div class="featured-grid">
       {featured.map((post) => (
         <article class="featured-card">
+          <img
+  class="card-thumb"
+  src={
+    post.data.category === '급여 안내'
+      ? '/images/categories/salary.jpg'
+      : post.data.category === '인사·노무'
+      ? '/images/categories/labor.jpg'
+      : post.data.category === '행정 실무'
+      ? '/images/categories/admin.jpg'
+      : '/images/categories/grant.jpg'
+  }
+  alt={post.data.category}
+/>
           <a class="post-category" href={`/blog/category/${post.data.category}/`}>
             {post.data.category}
           </a>
@@ -86,6 +99,19 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
      <div class="post-list">
       {latest.map((post) => (
         <article class="list-card">
+<img
+  class="card-thumb"
+  src={
+    post.data.category === '급여 안내'
+      ? '/images/categories/salary.jpg'
+      : post.data.category === '인사·노무'
+      ? '/images/categories/labor.jpg'
+      : post.data.category === '행정 실무'
+      ? '/images/categories/admin.jpg'
+      : '/images/categories/grant.jpg'
+  }
+  alt={post.data.category}
+/>
           <div>
             <a class="post-category" href={`/blog/category/${post.data.category}/`}>
               {post.data.category}
