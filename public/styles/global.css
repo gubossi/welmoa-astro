@@ -407,10 +407,17 @@ nav a {
   font-size: 1.25rem;
 }
 
+@media (max-width: 1024px) {
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 900px) {
   .featured-grid {
     grid-template-columns: 1fr;
   }
+}
 
   .list-card {
     grid-template-columns: 1fr;
@@ -487,12 +494,6 @@ nav a {
 
 .list-card p {
   max-width: 760px;
-}
-
-@media (max-width: 900px) {
-  .featured-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .more-actions {
