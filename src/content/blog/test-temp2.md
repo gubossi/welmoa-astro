@@ -3,7 +3,7 @@ title: "테스트2"
 description: "테스트2"
 pubDate: 2026-05-28
 category: "AI"
-draft: false
+draft: true
 ---
 
 테스트
