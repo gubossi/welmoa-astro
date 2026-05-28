@@ -55,20 +55,38 @@ const {
 
   mermaid.initialize({
     startOnLoad: false,
-    theme: 'default'
+    theme: 'default',
+    securityLevel: 'loose'
   });
 
-  document.querySelectorAll('pre code.language-mermaid').forEach((block) => {
-    const parent = block.parentElement;
+  const blocks = Array.from(document.querySelectorAll('pre code')).filter((block) => {
+    const text = block.textContent.trim();
+    const className = block.className || '';
 
+    return (
+      className.includes('language-mermaid') ||
+      text.startsWith('timeline') ||
+      text.startsWith('flowchart') ||
+      text.startsWith('pie') ||
+      text.startsWith('gantt') ||
+      text.startsWith('mindmap') ||
+      text.startsWith('sequenceDiagram')
+    );
+  });
+
+  blocks.forEach((block) => {
+    const pre = block.closest('pre');
     const div = document.createElement('div');
+
     div.className = 'mermaid';
     div.textContent = block.textContent;
 
-    parent.replaceWith(div);
+    pre.replaceWith(div);
   });
 
-  mermaid.run();
+  mermaid.run({
+    querySelector: '.mermaid'
+  });
 </script>
 
   </body>
