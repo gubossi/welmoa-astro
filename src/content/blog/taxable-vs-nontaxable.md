@@ -6,7 +6,6 @@ category: "급여"
 draft: false
 ---
 
-급여 정보
 # 비과세 수당과 과세 수당 차이
 
 Welmoa 콘텐츠 · 과세/비과세 설명
