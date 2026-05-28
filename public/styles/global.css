@@ -530,3 +530,39 @@ nav a {
 .search-results[hidden] {
   display: none !important;
 }
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid #dbe3ef;
+  background: white;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+}
+
+.post-content thead {
+  background: #eff6ff;
+}
+
+.post-content th,
+.post-content td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-content th {
+  color: #1e3a8a;
+  font-weight: 800;
+}
+
+.post-content tr:last-child td {
+  border-bottom: none;
+}
+
+.post-content tbody tr:hover {
+  background: #f8fafc;
+}
