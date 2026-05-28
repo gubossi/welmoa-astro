@@ -2,7 +2,7 @@
 title: "초보 사회복지사를 위한 급여 이해 가이드"
 description: "신입 사회복지사가 꼭 알아두면 좋은 급여 명세서 읽는 방법과 확인 포인트를 정리한 입문 글"
 pubDate: 2026-04-16
-category: "실무 가이드"
+category: "급여"
 draft: false
 ---
 

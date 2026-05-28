@@ -2,7 +2,7 @@
 title: "사회복지시설 회의록 작성 방법"
 description: "신입 사회복지사를 위해 회의록 작성 목적, 기본 구성, 결정사항과 논의사항 구분법을 쉽게 설명한 글"
 pubDate: 2026-05-09
-category: "행정 실무 입문"
+category: "행정·회계"
 draft: false
 ---
 

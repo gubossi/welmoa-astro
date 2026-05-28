@@ -2,7 +2,7 @@
 title: "2026년 사회복지사 실수령액 예시 정리"
 description: "2026년 사회복지사 급여를 이해하기 위해 기본급, 수당, 공제 구조와 실수령액 예시를 정리한 글"
 pubDate: 2026-05-09
-category: "급여 가이드"
+category: "급여"
 draft: false
 ---
 

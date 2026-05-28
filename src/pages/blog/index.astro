@@ -53,6 +53,23 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
     <div class="featured-grid">
       {featured.map((post) => (
         <article class="featured-card">
+<img
+  class="card-thumb"
+  src={
+    post.data.category.includes('급여')
+      ? '/images/categories/salary.png'
+      : post.data.category.includes('인사') || post.data.category.includes('노무')
+      ? '/images/categories/labor.png'
+      : post.data.category.includes('행정') || post.data.category.includes('회계')
+      ? '/images/categories/admin.png'
+      : post.data.category.includes('사업운영')
+      ? '/images/categories/grant.png'
+      : post.data.category.includes('AI')
+      ? '/images/categories/ai.png'
+      : '/images/categories/default.png'
+  }
+  alt={post.data.category}
+/>
           <a class="post-category" href={`/blog/category/${post.data.category}/`}>
             {post.data.category}
           </a>
@@ -86,6 +103,23 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
      <div class="post-list">
       {latest.map((post) => (
         <article class="list-card">
+<img
+  class="card-thumb"
+  src={
+    post.data.category.includes('급여')
+      ? '/images/categories/salary.png'
+      : post.data.category.includes('인사') || post.data.category.includes('노무')
+      ? '/images/categories/labor.png'
+      : post.data.category.includes('행정') || post.data.category.includes('회계')
+      ? '/images/categories/admin.png'
+      : post.data.category.includes('사업운영')
+      ? '/images/categories/grant.png'
+      : post.data.category.includes('AI')
+      ? '/images/categories/ai.png'
+      : '/images/categories/default.png'
+  }
+  alt={post.data.category}
+/>
           <div>
             <a class="post-category" href={`/blog/category/${post.data.category}/`}>
               {post.data.category}
@@ -103,6 +137,23 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
     <div class="search-results" hidden>
      {allSearchPosts.map((post) => (
       <article class="list-card search-card">
+<img
+  class="card-thumb"
+  src={
+    post.data.category.includes('급여')
+      ? '/images/categories/salary.png'
+      : post.data.category.includes('인사') || post.data.category.includes('노무')
+      ? '/images/categories/labor.png'
+      : post.data.category.includes('행정') || post.data.category.includes('회계')
+      ? '/images/categories/admin.png'
+      : post.data.category.includes('사업운영')
+      ? '/images/categories/grant.png'
+      : post.data.category.includes('AI')
+      ? '/images/categories/ai.png'
+      : '/images/categories/default.png'
+  }
+  alt={post.data.category}
+/>
       <div>
         <a class="post-category" href={`/blog/category/${post.data.category}/`}>
           {post.data.category}

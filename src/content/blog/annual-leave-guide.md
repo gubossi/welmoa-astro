@@ -2,8 +2,9 @@
 title: "사회복지시설 연차는 어떻게 계산될까?"
 description: "신입 사회복지사와 입사예정자를 위해 연차 발생 기준, 입사 첫해 휴가, 대체휴무와의 차이를 쉽게 정리한 글"
 pubDate: 2026-05-09
-category: "인사·노무 입문"
+category: "인사·노무"
 draft: false
+featured: true
 ---
 
 # 사회복지시설 연차는 어떻게 계산될까?

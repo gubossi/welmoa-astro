@@ -2,7 +2,7 @@
 title: "4대보험 계산 쉽게 이해하기"
 description: "사회복지 현장에서 자주 확인하는 4대보험의 개념, 공제 흐름, 실무 체크 포인트를 쉽게 설명한 글"
 pubDate: 2026-04-16
-category: "실무 가이드"
+category: "행정·회계"
 draft: false
 ---
 
