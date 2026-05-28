@@ -7,7 +7,6 @@ draft: false
 featured: true
 ---
 
-실무 가이드
 # [2026] 사회복지사 월급 실수령액 계산 방법
 
 게시일 2026-04-17 · Welmoa 콘텐츠
