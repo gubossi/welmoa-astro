@@ -2,7 +2,7 @@
 title: "비과세 수당과 과세 수당 차"
 description: "급여를 볼 때 가장 헷갈리는 부분 중 하나인 실수령액의 차이가 발생하는 포인트에 대해 설명한 글"
 pubDate: 2026-05-26
-category: "급여 정보"
+category: "급여"
 draft: false
 ---
 
