@@ -342,8 +342,9 @@ nav a {
 
 .featured-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+  align-items: stretch;
 }
 
 .featured-card {
@@ -437,11 +438,6 @@ nav a {
 
 .footer-links a:hover {
   color: #2563eb;
-}
-
-.featured-grid {
-  grid-template-columns: 1.3fr 1fr 1fr;
-  align-items: stretch;
 }
 
 .featured-card {
