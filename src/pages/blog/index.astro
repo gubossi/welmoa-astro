@@ -102,13 +102,13 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
 <img
   class="card-thumb"
   src={
-    post.data.category === '급여 안내'
-      ? '/images/categories/salary.jpg'
-      : post.data.category === '인사·노무'
-      ? '/images/categories/labor.jpg'
-      : post.data.category === '행정 실무'
-      ? '/images/categories/admin.jpg'
-      : '/images/categories/grant.jpg'
+    post.data.category.includes('급여')
+      ? '/images/categories/salary.png'
+      : post.data.category.includes('인사') || post.data.category.includes('노무')
+      ? '/images/categories/labor.png'
+      : post.data.category.includes('행정') || post.data.category.includes('회계')
+      ? '/images/categories/admin.png'
+      : '/images/categories/grant.png'
   }
   alt={post.data.category}
 />
