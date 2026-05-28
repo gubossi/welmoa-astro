@@ -201,3 +201,4 @@ flowchart LR
 - 향후 3년의 핵심 과제는 **AI 도입 자체가 아니라 정책·데이터·책임성의 표준화**다. citeturn30search4turn34search1turn31search6turn32search5
 - 가장 효과적인 시작점은 **전사 정책 1개, 승인도구 목록, 저위험 파일럿 2~3개, 교육 체계, 데이터 보호 기준**을 동시에 만드는 것이다. citeturn43search3turn43search0turn31search9
 
+[콘텐츠 목록으로 돌아가기](/blog/)
