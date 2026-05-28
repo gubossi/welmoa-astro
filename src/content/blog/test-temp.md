@@ -2,7 +2,7 @@
 title: "테스트"
 description: "테스트"
 pubDate: 2026-05-26
-category: ""
+category: "기타"
 draft: false
 ---
 
