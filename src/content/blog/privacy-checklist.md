@@ -7,7 +7,6 @@ draft: false
 featured: true
 ---
 
-행정 실무 입문
 # 사회복지시설 개인정보 관리 체크리스트
 
 게시일 2026-05-09 · Welmoa 콘텐츠
