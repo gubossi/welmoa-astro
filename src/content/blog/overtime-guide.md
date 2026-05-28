@@ -2,7 +2,7 @@
 title: "시간외근무수당 계산법과 실무 체크 포인트"
 description: "사회복지 현장에서 자주 발생하는 초과근무 수당의 개념, 기록 관리, 계산 확인 포인트를 설명한 글"
 pubDate: 2026-05-26
-category: "수당 안내"
+category: "급여"
 draft: false
 ---
 
