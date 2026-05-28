@@ -1,7 +1,7 @@
 ---
 title: "테스트"
 description: "테스트"
-pubDate: 2026-05-26
+pubDate: 2026-05-28
 category: "기타"
 draft: false
 ---
@@ -9,7 +9,7 @@ draft: false
 테스트
 # 제목 테스트
 
-게시일 2026-05-26 · Welmoa 콘텐츠
+게시일 2026-05-28 · Welmoa 콘텐츠
 내용 테스트
 
 ## 1. 테스트 중
