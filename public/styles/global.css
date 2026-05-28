@@ -566,3 +566,37 @@ nav a {
 .post-content tbody tr:hover {
   background: #f8fafc;
 }
+
+.post-content {
+  overflow-x: hidden;
+}
+
+.post-content table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.info-box {
+  margin: 28px 0;
+  padding: 20px 22px;
+  border-radius: 18px;
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+  color: #1e3a8a;
+  line-height: 1.8;
+}
+
+.warning-box {
+  margin: 28px 0;
+  padding: 20px 22px;
+  border-radius: 18px;
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #991b1b;
+  line-height: 1.8;
+}
+
+.post-content ul li {
+  margin: 10px 0;
+}
