@@ -2,7 +2,7 @@
 title: "사회복지 종사자 급여 계산 방법 총정리"
 description: "사회복지 종사자 급여 계산의 기본 구조, 수당, 공제 항목, 실무 확인 포인트를 정리한 안내 글"
 pubDate: 2026-05-26
-category: "급여 안내"
+category: "급여"
 draft: false
 ---
 
