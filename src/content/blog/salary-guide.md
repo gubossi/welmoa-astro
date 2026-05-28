@@ -6,7 +6,6 @@ category: "급여"
 draft: false
 ---
 
-급여 안내
 # 사회복지사 급여 계산 방법 총정리
 
 Welmoa 콘텐츠 · 급여 구조 설명
