@@ -62,7 +62,11 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       ? '/images/categories/labor.png'
       : post.data.category.includes('행정') || post.data.category.includes('회계')
       ? '/images/categories/admin.png'
-      : '/images/categories/grant.png'
+      : post.data.category.includes('사업운영')
+      ? '/images/categories/grant.png'
+      : post.data.category.includes('AI')
+      ? '/images/categories/ai.png'
+      : '/images/categories/default.png'
   }
   alt={post.data.category}
 />
@@ -108,7 +112,11 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       ? '/images/categories/labor.png'
       : post.data.category.includes('행정') || post.data.category.includes('회계')
       ? '/images/categories/admin.png'
-      : '/images/categories/grant.png'
+      : post.data.category.includes('사업운영')
+      ? '/images/categories/grant.png'
+      : post.data.category.includes('AI')
+      ? '/images/categories/ai.png'
+      : '/images/categories/default.png'
   }
   alt={post.data.category}
 />
@@ -138,7 +146,11 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       ? '/images/categories/labor.png'
       : post.data.category.includes('행정') || post.data.category.includes('회계')
       ? '/images/categories/admin.png'
-      : '/images/categories/grant.png'
+      : post.data.category.includes('사업운영')
+      ? '/images/categories/grant.png'
+      : post.data.category.includes('AI')
+      ? '/images/categories/ai.png'
+      : '/images/categories/default.png'
   }
   alt={post.data.category}
 />
