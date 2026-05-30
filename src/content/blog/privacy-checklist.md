@@ -4,7 +4,7 @@ description: "신입 사회복지사가 알아야 할 이용자 개인정보 관
 pubDate: 2026-05-09
 category: "행정·회계"
 draft: false
-featured: true
+featured: false
 ---
 
 # 사회복지시설 개인정보 관리 체크리스트
