@@ -5,6 +5,7 @@ description: "근로기준법 개정안으로 달라지는 휴게시간, 시간 
 pubDate: 2026-05-29
 category: "인사·노무"
 draft: false
+featured: true
 ------------
 
 # ‘4시간 근무 후 바로 퇴근’ 가능해진다?! 근로기준법 개정안 핵심 정리
