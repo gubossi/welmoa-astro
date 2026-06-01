@@ -4,6 +4,7 @@ description: "2022~2026년의 최신 설문, 보고서, 정부·규제 가이드
 pubDate: 2026-05-29
 category: "AI"
 thumbnail: "/images/blog/26052903.jpg"
+heroImage: "/images/blog/26052903.jpg"
 draft: false
 ---
 
