@@ -8,7 +8,7 @@ export async function GET() {
         new Date(b.data.pubDate).getTime() -
         new Date(a.data.pubDate).getTime()
     )
-    .slice(0, 3)
+    .slice(0, 6)
     .map((post) => ({
       title: post.data.title,
       description: post.data.description,
