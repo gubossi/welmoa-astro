@@ -3,6 +3,7 @@ title: "광역자치단체별 사회복지시설종사자 처우개선 현황 �
 description: "17개 광역자치단체를 대상으로, 2020년부터 2025년까지의 공개 문서를 우선 수집해 비교해 보았습니다."
 pubDate: 2026-05-29
 category: "사업운영"
+thumbnail: "/images/blog/26052904.jpg"
 draft: false
 ---
 
