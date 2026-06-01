@@ -4,6 +4,7 @@ description: "17개 광역자치단체를 대상으로, 2020년부터 2025년까
 pubDate: 2026-05-29
 category: "사업운영"
 thumbnail: "/images/blog/26052904.jpg"
+heroImage: "/images/blog/26052904.jpg"
 draft: false
 ---
 
