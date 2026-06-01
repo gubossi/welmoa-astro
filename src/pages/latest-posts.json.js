@@ -9,13 +9,14 @@ export async function GET() {
         new Date(a.data.pubDate).getTime()
     )
     .slice(0, 6)
-    .map((post) => ({
-      title: post.data.title,
-      description: post.data.description,
-      category: post.data.category,
-      pubDate: post.data.pubDate,
-      url: `https://blog.welmoa.kr/blog/${post.id}/`,
-    }));
+.map((post) => ({
+  title: post.data.title,
+  description: post.data.description,
+  category: post.data.category,
+  pubDate: post.data.pubDate,
+  thumbnail: post.data.thumbnail || '/images/default-thumb.jpg',
+  url: `https://blog.welmoa.kr/blog/${post.id}/`,
+}))
 
   return new Response(JSON.stringify(posts), {
     headers: {
