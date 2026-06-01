@@ -32,6 +32,14 @@ const { Content } = await render(post);
         {post.data.pubDate.toLocaleDateString('ko-KR')}
       </div>
 
+      {post.data.heroImage && (
+        <img
+          class="post-hero-image"
+          src={post.data.heroImage}
+          alt={post.data.title}
+        />
+      )}
+
       <hr />
 
       <div class="post-content">
