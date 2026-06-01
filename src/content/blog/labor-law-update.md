@@ -4,6 +4,7 @@ description: "근로기준법 개정안으로 달라지는 휴게시간, 시간 
 pubDate: 2026-05-29
 category: "인사·노무"
 thumbnail: "/images/blog/26052905.jpg"
+heroImage: "/images/blog/26052905.jpg"
 draft: false
 featured: true
 ---
