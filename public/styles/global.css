@@ -605,3 +605,10 @@ nav a:hover {
   margin: 28px 0 32px;
   display: block;
 }
+
+@media (max-width: 768px) {
+  .post-detail img.post-hero-image {
+    height: 220px;
+    border-radius: 18px;
+  }
+}
