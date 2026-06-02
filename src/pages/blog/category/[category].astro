@@ -20,7 +20,15 @@ const posts = (await getCollection('blog'))
       !post.data.draft &&
       post.data.category === category
   )
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  .sort((a, b) => {
+  const dateDiff =
+    new Date(b.data.pubDate).getTime() -
+    new Date(a.data.pubDate).getTime();
+
+  if (dateDiff !== 0) return dateDiff;
+
+  return b.id.localeCompare(a.id);
+});
 ---
 
 <BaseLayout
