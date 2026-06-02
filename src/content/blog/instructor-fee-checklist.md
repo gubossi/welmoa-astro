@@ -3,7 +3,10 @@ title: "사회복지시설 프로그램 강사비 지급 시 체크사항"
 description: "프로그램 강사비 지급을 처음 맡은 실무자를 위해 강사비, 자문비, 원천징수, 증빙자료를 쉽게 정리한 글"
 pubDate: 2026-05-09
 category: "행정·회계"
+thumbnail: "/images/blog/accounting.jpg"
+heroImage: "/images/blog/accounting.jpg"
 draft: false
+featured: false
 ---
 
 # 사회복지시설 프로그램 강사비 지급 시 체크사항
