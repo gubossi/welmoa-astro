@@ -612,3 +612,16 @@ nav a:hover {
     border-radius: 18px;
   }
 }
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap !important;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: nowrap !important;
+  white-space: nowrap;
+}
