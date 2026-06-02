@@ -3,7 +3,10 @@ title: "사회복지사 퇴직금은 어떻게 계산될까?"
 description: "사회복지시설 종사자가 알아두면 좋은 퇴직금의 기본 개념, 평균임금, 포함 항목, 확인 포인트를 쉽게 정리한 글"
 pubDate: 2026-05-09
 category: "인사·노무"
+thumbnail: "/images/blog/labor.jpg"
+heroImage: "/images/blog/labor.jpg"
 draft: false
+featured: false
 ---
 
 # 사회복지사 퇴직금은 어떻게 계산될까?
