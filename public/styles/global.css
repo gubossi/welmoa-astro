@@ -661,3 +661,49 @@ nav a:hover {
     display: none;
   }
 }
+
+.post-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 48px;
+}
+
+.post-nav-card {
+  display: block;
+  padding: 20px 22px;
+  border: 1px solid #dbeafe;
+  border-radius: 20px;
+  background: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.08);
+}
+
+.post-nav-card span {
+  display: block;
+  margin-bottom: 8px;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.post-nav-card strong {
+  display: block;
+  color: #111827;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.post-nav-card.next {
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .post-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .post-nav-card.next {
+    text-align: left;
+  }
+}
