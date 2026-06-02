@@ -3,7 +3,10 @@ title: "사회복지시설 급여명세서 보는 방법"
 description: "사회복지시설 급여명세서의 기본급, 수당, 공제 항목과 실수령액 확인 방법을 실무 관점에서 정리한 글"
 pubDate: 2026-05-09
 category: "급여"
+thumbnail: "/images/blog/accounting.jpg"
+heroImage: "/images/blog/accounting.jpg"
 draft: false
+featured: false
 ---
 
 # 사회복지시설 급여명세서 보는 방법
