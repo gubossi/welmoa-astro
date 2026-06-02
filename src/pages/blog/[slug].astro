@@ -13,6 +13,15 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+const posts = (await getCollection('blog'))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const currentIndex = posts.findIndex((p) => p.id === post.id);
+
+const prevPost = posts[currentIndex + 1];
+const nextPost = posts[currentIndex - 1];
 ---
 
 <BaseLayout
@@ -24,10 +33,12 @@ const { Content } = await render(post);
       <a class="back-link" href="/blog/">← 콘텐츠 목록</a>
 
       <a class="post-category" href={`/blog/category/${post.data.category}/`}>
-  {post.data.category}
-</a>
+        {post.data.category}
+      </a>
+
       <h1>{post.data.title}</h1>
       <p class="post-lead">{post.data.description}</p>
+
       <div class="post-meta">
         {post.data.pubDate.toLocaleDateString('ko-KR')}
       </div>
@@ -43,6 +54,22 @@ const { Content } = await render(post);
       <div class="post-content">
         <Content />
       </div>
+
+      <nav class="post-nav" aria-label="이전글 다음글">
+        {prevPost && (
+          <a class="post-nav-card prev" href={`/blog/${prevPost.id}/`}>
+            <span>← 이전글</span>
+            <strong>{prevPost.data.title}</strong>
+          </a>
+        )}
+
+        {nextPost && (
+          <a class="post-nav-card next" href={`/blog/${nextPost.id}/`}>
+            <span>다음글 →</span>
+            <strong>{nextPost.data.title}</strong>
+          </a>
+        )}
+      </nav>
     </article>
   </section>
 </BaseLayout>
