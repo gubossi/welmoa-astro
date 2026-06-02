@@ -3,7 +3,10 @@ title: "명절휴가비 기준과 확인 방법"
 description: "명절 관련 지급 항목을 확인할 때 알아두면 좋은 구조와 실무상 점검 포인트를 정리한 글"
 pubDate: 2026-04-16
 category: "급여"
+thumbnail: "/images/blog/payroll.jpg"
+heroImage: "/images/blog/payroll.jpg"
 draft: false
+featured: false
 ---
 
 # 명절휴가비 기준과 확인 방법
