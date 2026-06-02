@@ -3,7 +3,10 @@ title: "사회복지사 시간외근무수당 계산 방법 총정리"
 description: "사회복지시설 종사자가 자주 확인하는 시간외근무수당의 개념, 계산 흐름, 휴일근무와 야간근무 확인 포인트를 정리한 글"
 pubDate: 2026-05-09
 category: "급여"
+thumbnail: "/images/blog/payroll.jpg"
+heroImage: "/images/blog/payroll.jpg"
 draft: false
+featured: false
 ---
 
 # 사회복지사 시간외근무수당 계산 방법 총정리
