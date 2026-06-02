@@ -3,8 +3,10 @@ title: "[2026] 사회복지사 월급 실수령액 계산 방법"
 description: "2026년 기준 사회복지사 월급 실수령액 계산 방법을 정리했습니다. 총지급액, 공제항목, 4대보험, 세금, 급여명세서 확인 포인트까지 쉽게 안내합니다."
 pubDate: 2026-04-17
 category: "급여"
+thumbnail: "/images/blog/payroll.jpg"
+heroImage: "/images/blog/payroll.jpg"
 draft: false
-featured: true
+featured: false
 ---
 
 # [2026] 사회복지사 월급 실수령액 계산 방법
