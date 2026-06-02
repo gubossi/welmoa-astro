@@ -3,6 +3,8 @@ title: "사회복지시설 개인정보 관리 체크리스트"
 description: "신입 사회복지사가 알아야 할 이용자 개인정보 관리, 사진 활용, 파일 보관, 외부 공유 시 주의사항을 쉽게 정리한 글"
 pubDate: 2026-05-09
 category: "행정·회계"
+thumbnail: "/images/blog/accounting.jpg"
+heroImage: "/images/blog/accounting.jpg"
 draft: false
 featured: false
 ---
