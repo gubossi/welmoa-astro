@@ -3,8 +3,8 @@ title: "사회복지시설 급여 구조 이해하기"
 description: "기본급, 수당, 공제, 실수령액으로 이어지는 사회복지시설 급여 구조를 쉽게 풀어쓴 글"
 pubDate: 2026-04-16
 category: "급여"
-thumbnail: "/images/blog/accounting.jpg"
-heroImage: "/images/blog/accounting.jpg"
+thumbnail: "/images/blog/payroll.jpg"
+heroImage: "/images/blog/payroll.jpg"
 draft: false
 featured: false
 ---
