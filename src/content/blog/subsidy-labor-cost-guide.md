@@ -3,7 +3,10 @@ title: "보조금 인건비와 기관부담금 처리 실무 정리"
 description: "사회복지시설 보조금 사업에서 인건비, 기관부담금, 시간외수당 처리 시 확인해야 할 실무 포인트를 정리한 글"
 pubDate: 2026-05-09
 category: "행정·회계"
+thumbnail: "/images/blog/accounting.jpg"
+heroImage: "/images/blog/accounting.jpg"
 draft: false
+featured: false
 ---
 
 # 보조금 인건비와 기관부담금 처리 실무 정리
