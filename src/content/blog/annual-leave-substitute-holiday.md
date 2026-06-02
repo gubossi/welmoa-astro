@@ -3,7 +3,10 @@ title: "사회복지 종사자 연차와 대체휴무 기준 정리"
 description: "사회복지시설 종사자가 자주 헷갈리는 연차휴가와 대체휴무의 차이, 사용 기준, 실무 점검 포인트를 정리한 글"
 pubDate: 2026-05-09
 category: "인사·노무"
+thumbnail: "/images/blog/labor.jpg"
+heroImage: "/images/blog/labor.jpg"
 draft: false
+featured: false
 ---
 
 # 사회복지 종사자 연차와 대체휴무 기준 정리
