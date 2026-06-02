@@ -614,14 +614,50 @@ nav a:hover {
 }
 
 .site-header-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 18px 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap !important;
+  gap: 32px;
+  flex-wrap: nowrap;
+}
+
+.site-logo {
+  flex: 0 0 auto;
+  font-weight: 800;
+  font-size: 24px;
+  color: #2563eb;
+  text-decoration: none;
 }
 
 .site-nav {
   display: flex;
-  flex-wrap: nowrap !important;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: nowrap;
   white-space: nowrap;
+  overflow-x: auto;
+}
+
+.site-nav a {
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .site-header-inner {
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .site-nav {
+    gap: 18px;
+    scrollbar-width: none;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
+  }
 }
