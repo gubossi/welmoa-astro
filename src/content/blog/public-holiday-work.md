@@ -3,7 +3,10 @@ title: "사회복지시설 공휴일 근무와 대체휴무 이해하기"
 description: "사회복지시설 신입 직원을 위해 주말·공휴일 근무, 대체휴무, 시간외수당의 차이를 쉽게 정리한 글"
 pubDate: 2026-05-09
 category: "인사·노무"
+thumbnail: "/images/blog/labor.jpg"
+heroImage: "/images/blog/labor.jpg"
 draft: false
+featured: false
 ---
 
 # 사회복지시설 공휴일 근무와 대체휴무 이해하기
