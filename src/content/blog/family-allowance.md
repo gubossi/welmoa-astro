@@ -3,7 +3,10 @@ title: "가족수당 지급 기준 정리"
 description: "사회복지시설 실무에서 자주 확인하는 가족수당의 개념, 지급 대상, 점검 포인트를 정리한 글"
 pubDate: 2026-04-16
 category: "급여"
+thumbnail: "/images/blog/payroll.jpg"
+heroImage: "/images/blog/payroll.jpg"
 draft: false
+featured: false
 ---
 
 # 가족수당 지급 기준 정리
