@@ -4,10 +4,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const posts = (await getCollection('blog'))
   .filter((post) => !post.data.draft)
-  .sort((a, b) =>
-    new Date(b.data.pubDate).getTime() -
-    new Date(a.data.pubDate).getTime()
-  );
+  .sort((a, b) => {
+    const dateDiff =
+      new Date(b.data.pubDate).getTime() -
+      new Date(a.data.pubDate).getTime();
+
+    if (dateDiff !== 0) return dateDiff;
+
+    return b.id.localeCompare(a.id);
+  });
 
 const featured = posts
   .filter((post) => post.data.featured)
