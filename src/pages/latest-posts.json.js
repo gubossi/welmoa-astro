@@ -3,11 +3,15 @@ import { getCollection } from 'astro:content';
 export async function GET() {
   const posts = (await getCollection('blog'))
     .filter((post) => !post.data.draft)
-    .sort(
-      (a, b) =>
-        new Date(b.data.pubDate).getTime() -
-        new Date(a.data.pubDate).getTime()
-    )
+.sort((a, b) => {
+  const dateDiff =
+    new Date(b.data.pubDate).getTime() -
+    new Date(a.data.pubDate).getTime();
+
+  if (dateDiff !== 0) return dateDiff;
+
+  return b.id.localeCompare(a.id);
+})
     .slice(0, 6)
 .map((post) => ({
   title: post.data.title,
