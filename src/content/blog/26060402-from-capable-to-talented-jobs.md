@@ -4,8 +4,8 @@ title: "장애인일자리, '할 수 있는 일'에서 '잘하는 일'로"
 description: "문화예술과 AI가 만들어가는 새로운 장애인일자리의 가능성을 생각해봅니다."
 pubDate: 2026-06-04
 category: "웰모아 칼럼"
-thumbnail: "/images/blog/26060402.jpg"
-heroImage: "/images/blog/26060402.jpg"
+thumbnail: "/images/blog/26060402-from-capable-to-talented-jobs.jpg"
+heroImage: "/images/blog/26060402-from-capable-to-talented-jobs.jpg"
 draft: false
 featured: true
 ---
