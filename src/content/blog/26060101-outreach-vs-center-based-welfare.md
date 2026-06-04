@@ -3,7 +3,7 @@
 title: "찾아가는 복지 VS 찾아오는 복지"
 description: "18년차 사회복지 중간관리자의 시선으로 바라본 찾아가는 복지와 찾아오는 복지의 변화"
 pubDate: 2026-06-01
-category: "사업운영"
+category: "웰모아 칼럼"
 thumbnail: "/images/blog/26060101.jpg"
 heroImage: "/images/blog/26060101.jpg"
 draft: false
