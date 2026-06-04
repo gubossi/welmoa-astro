@@ -3,7 +3,7 @@
 title: "사회복지 전공 졸업생들이 복지관 취업 전 꼭 생각해봐야 할 것들"
 description: "18년차 사회복지 현장 실무자가 이야기하는 복지관 취업 준비와 현장에서 오래 살아남는 방법"
 pubDate: 2026-06-02
-category: "복지현장"
+category: "웰모아 칼럼"
 thumbnail: "/images/blog/26060204.jpg"
 heroImage: "/images/blog/26060204.jpg"
 draft: false
