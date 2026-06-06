@@ -715,3 +715,17 @@ nav a:hover {
   height: auto;
   display: block;
 }
+
+/* 폴드/모바일에서 블로그 이미지 본문 폭 맞춤 */
+.post-detail {
+  width: 100%;
+}
+
+.post-detail .post-hero-image,
+.post-detail .post-content img {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: contain !important;
+}
