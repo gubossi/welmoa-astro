@@ -609,6 +609,8 @@ nav a:hover {
 
 @media (max-width: 768px) {
   .post-detail img.post-hero-image {
+    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 18px;
   }
