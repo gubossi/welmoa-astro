@@ -7,6 +7,7 @@ category: "인사·노무"
 thumbnail: "/images/blog/26061001-ordinary-wage-impact.jpg"
 heroImage: "/images/blog/26061001-ordinary-wage-impact.jpg"
 draft: false
+featured: false
 ---
 
 
