@@ -6,7 +6,7 @@ category: "AI"
 thumbnail: "/images/blog/26052902.jpg"
 heroImage: "/images/blog/26052902.jpg"
 draft: false
-featured: true
+featured: false
 ---
 
 # 사회복지 현장에 AI가 들어오고 있다?! 아니, 이미 들어왔다!
