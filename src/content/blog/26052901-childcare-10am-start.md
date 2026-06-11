@@ -6,6 +6,7 @@ category: "인사·노무"
 thumbnail: "/images/blog/26052901.jpg"
 heroImage: "/images/blog/26052901.jpg"
 draft: false
+featured: true
 ---
 
 # 육아기 10시 출근제, 사회복지 현장에서 정말 가능할까
