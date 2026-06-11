@@ -7,6 +7,7 @@ category: "웰모아 칼럼"
 thumbnail: "/images/blog/26061101-why-i-never-wanted-to-be-a-social-worker.md.jpg"
 heroImage: "/images/blog/26061101-why-i-never-wanted-to-be-a-social-worker.md.jpg"
 draft: false
+featured: true
 ---
 
 # 나는 사회복지사가 되고 싶었던 적이 없다
