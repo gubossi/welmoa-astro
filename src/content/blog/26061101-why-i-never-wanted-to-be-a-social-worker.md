@@ -4,8 +4,8 @@ title: "처음부터 사회복지사가 되고 싶었던 것은 아니다"
 description: "사회복지사는 누구나 할 수 있지만 누구나 할 수 없는 일이다. 18년차 사회복지사가 바라본 사회복지라는 직업, 가치와 재원, 그리고 왜 아직도 이 일을 하고 있는지에 대한 이야기."
 pubDate: 2026-06-11
 category: "웰모아 칼럼"
-thumbnail: "/images/blog/26061101-why-i-never-wanted-to-be-a-social-worker.md.jpg"
-heroImage: "/images/blog/26061101-why-i-never-wanted-to-be-a-social-worker.md.jpg"
+thumbnail: "/images/blog/26061101-why-i-never-wanted-to-be-a-social-worker.jpg"
+heroImage: "/images/blog/26061101-why-i-never-wanted-to-be-a-social-worker.jpg"
 draft: false
 featured: true
 ---
