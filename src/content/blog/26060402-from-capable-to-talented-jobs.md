@@ -7,7 +7,7 @@ category: "웰모아 칼럼"
 thumbnail: "/images/blog/26060402-from-capable-to-talented-jobs.jpg"
 heroImage: "/images/blog/26060402-from-capable-to-talented-jobs.jpg"
 draft: false
-featured: true
+featured: false
 ---
 
 # 장애인일자리, '할 수 있는 일'에서 '잘하는 일'로
