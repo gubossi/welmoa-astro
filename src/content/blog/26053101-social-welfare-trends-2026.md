@@ -6,7 +6,7 @@ category: "웰모아 칼럼"
 thumbnail: "/images/blog/26053101.jpg"
 heroImage: "/images/blog/26053101.jpg"
 draft: false
-featured: true
+featured: false
 ---
 
 # 2026년 사회복지 현장은 어디로 가고 있을까요
