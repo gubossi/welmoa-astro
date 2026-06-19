@@ -8,11 +8,11 @@ thumbnail: "/images/blog/accounting.jpg"
 heroImage: "/images/blog/accounting.jpg"
 draft: false
 featured: false
----------------
+---
 
 # 사회복지시설 시간외근무수당 계산법과 실무 체크포인트
 
-게시일 2026-04-16 · Welmoa 콘텐츠
+게시일 2026-06-19 · Welmoa 콘텐츠
 
 사회복지 현장에서는 프로그램 운영, 행사 지원, 이용자 대응, 캠프 운영, 외부 회의 등으로 인해 정해진 근무시간을 초과하는 경우가 적지 않습니다.
 
