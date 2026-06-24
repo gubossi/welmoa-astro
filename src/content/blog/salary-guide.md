@@ -7,7 +7,7 @@ category: "급여"
 thumbnail: "/images/blog/payroll.jpg"
 heroImage: "/images/blog/payroll.jpg"
 draft: false
-featured: false
+featured: true
 ---
 
 # 사회복지시설 급여 구조와 계산 방법 총정리
