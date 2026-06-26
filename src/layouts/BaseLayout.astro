@@ -6,15 +6,36 @@ const {
 ---
 
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>{title}</title>
-    <meta name="description" content={description} />
+  <title>{title}</title>
+  <meta name="description" content={description} />
 
-    <link rel="stylesheet" href="/styles/global.css" />
-  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TNGJX9WB9"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4TNGJX9WB9');
+  </script>
+
+  <!-- Naver Analytics -->
+  <script src="https://wcs.pstatic.net/wcslog.js"></script>
+  <script is:inline>
+    if (!window.wcs_add) window.wcs_add = {};
+    window.wcs_add["wa"] = "c4e4f76e4b7f40";
+
+    if (window.wcs) {
+      wcs_do();
+    }
+  </script>
+
+  <link rel="stylesheet" href="/styles/global.css" />
+</head>
 
   <body>
     <header class="site-header">
