@@ -35,16 +35,16 @@ const posts = (await getCollection('blog'))
   class="card-thumb"
   src={
     post.data.category.includes('급여')
-      ? '/images/categories/salary.png'
+      ? '/images/categories/salary.webp'
       : post.data.category.includes('인사') || post.data.category.includes('노무')
-      ? '/images/categories/labor.png'
+      ? '/images/categories/labor.webp'
       : post.data.category.includes('행정') || post.data.category.includes('회계')
-      ? '/images/categories/admin.png'
+      ? '/images/categories/admin.webp'
       : post.data.category.includes('사업운영')
-      ? '/images/categories/grant.png'
+      ? '/images/categories/grant.webp'
       : post.data.category.includes('AI')
-      ? '/images/categories/ai.png'
-      : '/images/categories/default.png'
+      ? '/images/categories/ai.webp'
+      : '/images/categories/default.webp'
   }
   alt={post.data.category}
 />
