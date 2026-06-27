@@ -3,8 +3,8 @@ title: "‘4시간 근무 후 바로 퇴근’ 가능해진다?! 근로기준법
 description: "근로기준법 개정안으로 달라지는 휴게시간, 시간 단위 연차 제도와 기업 노무 리스크를 정리했습니다."
 pubDate: 2026-05-29
 category: "인사·노무"
-thumbnail: "/images/blog/26052905.jpg"
-heroImage: "/images/blog/26052905.jpg"
+thumbnail: "/images/blog/26052905.webp"
+heroImage: "/images/blog/26052905.webp"
 draft: false
 featured: true
 ---
