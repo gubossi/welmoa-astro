@@ -4,8 +4,8 @@ title: "사회복지시설 명절휴가비, 누가 받을 수 있을까?"
 description: "출산휴가, 육아휴직, 유급병가, 육아기 근로시간 단축자, 대체인력 등 사회복지시설 종사자의 명절휴가비 지급기준과 실제 사례를 정리했습니다."
 pubDate: 2026-06-17
 category: "급여"
-thumbnail: "/images/blog/26061701-holiday-bonus.jpg"
-heroImage: "/images/blog/26061701-holiday-bonus.jpg"
+thumbnail: "/images/blog/26061701-holiday-bonus.webp"
+heroImage: "/images/blog/26061701-holiday-bonus.webp"
 draft: false
 featured: false
 ---
