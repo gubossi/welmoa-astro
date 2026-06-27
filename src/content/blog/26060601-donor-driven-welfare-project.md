@@ -4,8 +4,8 @@ title: "기부자가 사업을 선택하는 시대, 사회복지기관은 준비
 description: "고향사랑기부제와 지정기부 확대가 사회복지사업에 던지는 변화와 사회복지기관이 준비해야 할 새로운 과제를 살펴봅니다."
 pubDate: 2026-06-06
 category: "사업운영"
-thumbnail: "/images/blog/26060601-donor-driven-welfare-project.jpg"
-heroImage: "/images/blog/26060601-donor-driven-welfare-project.jpg"
+thumbnail: "/images/blog/26060601-donor-driven-welfare-project.webp"
+heroImage: "/images/blog/26060601-donor-driven-welfare-project.webp"
 draft: false
 featured: false
 ---
