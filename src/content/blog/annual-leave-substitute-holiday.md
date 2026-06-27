@@ -3,8 +3,8 @@ title: "사회복지 종사자 연차와 대체휴무 기준 총정리"
 description: "사회복지시설 종사자가 자주 헷갈리는 연차휴가, 반차, 시간단위 연차, 공가, 대체휴무, 보상휴가의 차이와 실무 사례를 정리했습니다."
 pubDate: 2026-06-23
 category: "인사·노무"
-thumbnail: "/images/blog/labor.jpg"
-heroImage: "/images/blog/labor.jpg"
+thumbnail: "/images/blog/labor.webp"
+heroImage: "/images/blog/labor.webp"
 draft: false
 featured: false
 ---
