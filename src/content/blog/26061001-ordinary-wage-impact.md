@@ -4,8 +4,8 @@ title: "대법원이 통상임금 기준을 바꿨다는데, 내 월급도 달�
 description: "2024년 대법원 전원합의체 판결 이후 달라진 통상임금 기준을 사회복지시설 종사자의 급여, 시간외수당, 퇴직연금, 사회보험 관점에서 살펴봅니다."
 pubDate: 2026-06-10
 category: "인사·노무"
-thumbnail: "/images/blog/26061001-ordinary-wage-impact.jpg"
-heroImage: "/images/blog/26061001-ordinary-wage-impact.jpg"
+thumbnail: "/images/blog/26061001-ordinary-wage-impact.webp"
+heroImage: "/images/blog/26061001-ordinary-wage-impact.webp"
 draft: false
 featured: false
 ---
