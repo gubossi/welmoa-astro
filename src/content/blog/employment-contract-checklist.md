@@ -3,8 +3,8 @@ title: "사회복지시설 근로계약서에서 꼭 확인해야 할 항목"
 description: "입사예정자와 신입 사회복지사가 근로계약서에서 확인해야 할 계약기간, 근무시간, 휴게시간, 수당 항목을 정리한 글"
 pubDate: 2026-05-09
 category: "인사·노무"
-thumbnail: "/images/blog/labor.jpg"
-heroImage: "/images/blog/labor.jpg"
+thumbnail: "/images/blog/labor.webp"
+heroImage: "/images/blog/labor.webp"
 draft: false
 featured: false
 ---
