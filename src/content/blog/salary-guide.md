@@ -4,8 +4,8 @@ title: "사회복지시설 급여 구조와 계산 방법 총정리"
 description: "기본급, 각종 수당, 4대보험, 세금 공제, 실수령액까지 사회복지시설 급여의 전체 구조를 쉽게 설명합니다."
 pubDate: 2026-06-24
 category: "급여"
-thumbnail: "/images/blog/payroll.jpg"
-heroImage: "/images/blog/payroll.jpg"
+thumbnail: "/images/blog/payroll.webp"
+heroImage: "/images/blog/payroll.webp"
 draft: false
 featured: true
 ---
