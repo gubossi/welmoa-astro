@@ -3,8 +3,8 @@ title: "2026년 사회복지 현장은 어디로 가고 있을까요"
 description: "다양한 복지현장을 경험한 중간관리자의 시선으로 바라본 2026년 사회복지 트렌드"
 pubDate: 2026-05-31
 category: "웰모아 칼럼"
-thumbnail: "/images/blog/26053101.jpg"
-heroImage: "/images/blog/26053101.jpg"
+thumbnail: "/images/blog/26053101.webp"
+heroImage: "/images/blog/26053101.webp"
 draft: false
 featured: false
 ---
