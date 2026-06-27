@@ -3,8 +3,8 @@ title: "사회복지 현장에 AI가 들어오고 있다?! 아니, 이미 들어
 description: "18년차 사회복지 중간관리자가 바라본 AI와 복지현장의 변화"
 pubDate: 2026-05-29
 category: "AI"
-thumbnail: "/images/blog/26052902.jpg"
-heroImage: "/images/blog/26052902.jpg"
+thumbnail: "/images/blog/26052902.webp"
+heroImage: "/images/blog/26052902.webp"
 draft: false
 featured: false
 ---
