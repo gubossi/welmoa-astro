@@ -3,8 +3,8 @@ title: "AI로 기획해보는 2026년 장애아동·청소년 방학 프로그�
 description: "AI를 활용해 다양한 프로그램을 기획해보고 초안을 작성해봅니다"
 pubDate: 2026-06-02
 category: "사업운영"
-thumbnail: "/images/blog/26060202.jpg"
-heroImage: "/images/blog/26060202.jpg"
+thumbnail: "/images/blog/26060202.webp"
+heroImage: "/images/blog/26060202.webp"
 draft: false
 featured: false
 ---
