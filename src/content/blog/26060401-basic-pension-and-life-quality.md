@@ -3,8 +3,8 @@ title: "기초연금을 받는 노인이 더 어려운 사람일까?"
 description: "기초연금 수급 여부만으로 노인의 삶의 어려움을 판단할 수 있을까? 사회복지 현장에서 마주하는 고민을 이야기합니다."
 pubDate: 2026-06-04
 category: "웰모아 칼럼"
-thumbnail: "/images/blog/26060401-basic-pension-and-life-quality.jpg"
-heroImage: "/images/blog/26060401-basic-pension-and-life-quality.jpg"
+thumbnail: "/images/blog/26060401-basic-pension-and-life-quality.webp"
+heroImage: "/images/blog/26060401-basic-pension-and-life-quality.webp"
 draft: false
 featured: false
 ---
