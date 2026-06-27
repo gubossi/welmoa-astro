@@ -3,8 +3,8 @@ title: "사회복지시설 신규직원이 가장 헷갈리는 행정용어 정�
 description: "입사예정자와 신입 사회복지사를 위해 실인원, 연인원, 집행률, 교부금, 정산 등 사회복지 행정용어를 쉽게 정리한 글"
 pubDate: 2026-05-09
 category: "행정·회계"
-thumbnail: "/images/blog/payroll.jpg"
-heroImage: "/images/blog/payroll.jpg"
+thumbnail: "/images/blog/payroll.webp"
+heroImage: "/images/blog/payroll.webp"
 draft: false
 featured: false
 ---
