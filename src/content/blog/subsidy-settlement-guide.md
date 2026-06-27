@@ -3,8 +3,8 @@ title: "사회복지시설 보조금 정산 시 주의할 점"
 description: "신입 실무자가 보조금 정산을 이해할 수 있도록 예산집행, 증빙자료, 집행잔액, 정산 오류를 쉽게 정리한 글"
 pubDate: 2026-05-09
 category: "행정·회계"
-thumbnail: "/images/blog/accounting.jpg"
-heroImage: "/images/blog/accounting.jpg"
+thumbnail: "/images/blog/accounting.webp"
+heroImage: "/images/blog/accounting.webp"
 draft: false
 featured: false
 ---
