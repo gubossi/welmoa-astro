@@ -3,8 +3,8 @@ title: "보상휴가? 대체휴무? 휴일대체? 사회복지 현장에서 가�
 description: "10년차 사회복지사이자 인사담당자의 시선으로 정리한 보상휴가, 대체휴무, 대체휴가, 휴일대체의 차이와 실무 적용"
 pubDate: 2026-06-02
 category: "인사·노무"
-thumbnail: "/images/blog/26060201.jpg"
-heroImage: "/images/blog/26060201.jpg"
+thumbnail: "/images/blog/26060201.webp"
+heroImage: "/images/blog/26060201.webp"
 draft: false
 featured: false
 ---
