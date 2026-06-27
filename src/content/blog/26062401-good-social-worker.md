@@ -3,8 +3,8 @@ title: "18년차 사회복지사가 함께 일하고 싶은 신입 직원"
 description: "18년차 사회복지사가 현장에서 만난 신입 직원들을 돌아보며 함께 일하고 싶은 사람의 특징을 이야기합니다. 업무능력보다 중요한 태도, 소통, 성장에 대한 이야기."
 pubDate: 2026-06-24
 category: "커리어"
-thumbnail: "/images/blog/26062401-good-social-worker2.jpg"
-heroImage: "/images/blog/26062401-good-social-worker2.jpg"
+thumbnail: "/images/blog/26062401-good-social-worker.webp"
+heroImage: "/images/blog/26062401-good-social-worker.webp"
 draft: false
 featured: false
 ---
