@@ -3,8 +3,8 @@ title: "사회복지시설에서 자주 사용하는 공문 종류"
 description: "신입 직원이 알아두면 좋은 사회복지시설 공문 종류와 작성 목적, 협조공문, 결과보고, 계획보고의 차이를 설명한 글"
 pubDate: 2026-05-09
 category: "행정·회계"
-thumbnail: "/images/blog/accounting.jpg"
-heroImage: "/images/blog/accounting.jpg"
+thumbnail: "/images/blog/accounting.webp"
+heroImage: "/images/blog/accounting.webp"
 draft: false
 featured: false
 ---
