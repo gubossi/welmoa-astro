@@ -4,8 +4,8 @@ title: "사회복지시설 시간외근무수당 계산법과 실무 체크포�
 description: "연장근로, 휴일근로, 야간근로부터 실근로시간 판단, 출장·교육·캠프, 보상휴가까지 사회복지시설 실무자가 자주 헷갈리는 시간외근무 사례를 정리했습니다."
 pubDate: 2026-06-19
 category: "인사·노무"
-thumbnail: "/images/blog/labor.jpg"
-heroImage: "/images/blog/labor.jpg"
+thumbnail: "/images/blog/labor.webp"
+heroImage: "/images/blog/labor.webp"
 draft: false
 featured: false
 ---
