@@ -3,8 +3,8 @@ title: "환율 1,500원 시대, 복지기관 운영의 숨겨진 변화"
 description: "환율 상승이 사회복지 현장 운영과 복지서비스에 어떤 변화를 가져오는지 현장 관점에서 살펴봅니다."
 pubDate: 2026-06-03
 category: "사업운영"
-thumbnail: "/images/blog/26060301.jpg"
-heroImage: "/images/blog/26060301.jpg"
+thumbnail: "/images/blog/26060301.webp"
+heroImage: "/images/blog/26060301.webp"
 draft: false
 featured: false
 ---
