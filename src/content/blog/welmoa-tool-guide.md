@@ -3,8 +3,8 @@ title: "급여 계산기 활용 방법과 검산 요령"
 description: "급여 계산 도구를 더 정확하게 쓰기 위한 입력 확인법과 검산 요령을 소개하는 글"
 pubDate: 2026-04-16
 category: "급여"
-thumbnail: "/images/blog/payroll.jpg"
-heroImage: "/images/blog/payroll.jpg"
+thumbnail: "/images/blog/payroll.webp"
+heroImage: "/images/blog/payroll.webp"
 draft: false
 featured: false
 ---
