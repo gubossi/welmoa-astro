@@ -3,8 +3,8 @@ title: "사회복지사 급여명세서 보는 법 : 첫 월급 전에 꼭 알�
 description: "신입 사회복지사가 첫 급여명세서를 받았을 때 꼭 확인해야 할 항목과 실수령액 계산 방법, 4대보험 공제 구조를 쉽게 설명합니다."
 pubDate: 2026-06-19
 category: "급여"
-thumbnail: "/images/blog/payroll.jpg"
-heroImage: "/images/blog/payroll.jpg"
+thumbnail: "/images/blog/payroll.webp"
+heroImage: "/images/blog/payroll.webp"
 draft: false
 featured: false
 ---
