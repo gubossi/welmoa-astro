@@ -3,8 +3,8 @@ title: "서울 vs 경기 vs 인천 사회복지사 1호봉 급여 수준 비교�
 description: "2026년 기준 서울·경기·인천 사회복지사 1호봉 급여와 실수령액, 처우개선 방향을 비교해봤습니다."
 pubDate: 2026-06-02
 category: "급여"
-thumbnail: "/images/blog/26060203.jpg"
-heroImage: "/images/blog/26060203.jpg"
+thumbnail: "/images/blog/26060203.webp"
+heroImage: "/images/blog/26060203.webp"
 draft: false
 featured: true
 ---
