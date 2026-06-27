@@ -3,8 +3,8 @@ title: "사회복지시설 실적보고 작성 시 자주 하는 실수"
 description: "사회복지시설 신입 직원이 실적보고를 작성할 때 헷갈리기 쉬운 실인원, 연인원, 건수, 회기, 증빙자료를 쉽게 설명한 글"
 pubDate: 2026-05-09
 category: "행정·회계"
-thumbnail: "/images/blog/accounting.jpg"
-heroImage: "/images/blog/accounting.jpg"
+thumbnail: "/images/blog/accounting.webp"
+heroImage: "/images/blog/accounting.webp"
 draft: false
 featured: false
 ---
