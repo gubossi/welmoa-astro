@@ -3,8 +3,8 @@ title: "급여 계산에서 자주 발생하는 실수 TOP 5"
 description: "사회복지시설 급여 업무에서 반복적으로 나타나는 대표 오류와 예방 방법을 정리한 글"
 pubDate: 2026-04-16
 category: "행정·회계"
-thumbnail: "/images/blog/accounting.jpg"
-heroImage: "/images/blog/accounting.jpg"
+thumbnail: "/images/blog/accounting.webp"
+heroImage: "/images/blog/accounting.webp"
 draft: false
 featured: false
 ---
