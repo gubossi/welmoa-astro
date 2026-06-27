@@ -4,8 +4,8 @@ title: "사회복지시설 가족수당 완전정복"
 description: "사회복지사 부부, 민간기업 배우자, 부모 부양, 세대분리, 혼인신고, 중복수급까지. 사회복지시설 종사자가 가장 많이 묻는 가족수당 사례를 정리했습니다."
 pubDate: 2026-06-12
 category: "급여"
-thumbnail: "/images/blog/payroll.jpg"
-heroImage: "/images/blog/payroll.jpg"
+thumbnail: "/images/blog/payroll.webp"
+heroImage: "/images/blog/payroll.webp"
 draft: false
 ---
 
