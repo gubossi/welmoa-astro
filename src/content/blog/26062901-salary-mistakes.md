@@ -2,7 +2,7 @@
 
 title: "급여 계산에서 자주 발생하는 실수 TOP 5"
 description: "사회복지시설 급여 담당자가 실제로 가장 많이 헷갈리는 급여 계산 사례를 정리했습니다. 중도입사, 주휴수당, 소득세, 휴직, 과지급 사례까지 실무 중심으로 알아봅니다."
-pubDate: "2026-06-30"
+pubDate: "2026-06-29"
 category: "급여"
 thumbnail: "/images/blog/26062901-salary-mistakes.webp"
 heroImage: "/images/blog/26062901-salary-mistakes.webp"
