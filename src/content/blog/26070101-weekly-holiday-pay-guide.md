@@ -289,7 +289,7 @@ featured: true
 
 # 주휴수당 판단 순서
 
-![주휴수당 판단 순서](/images/blog/26070105-weekly-holiday-flow.webp)
+![주휴수당 판단 순서](/images/blog/26070101-weekly-holiday-flow.webp)
 
 복잡한 사례를 만나더라도 다음 순서대로 확인하면 대부분의 경우 판단이 가능합니다.
 
