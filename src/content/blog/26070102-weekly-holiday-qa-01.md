@@ -398,7 +398,7 @@ featured: false
 
 ## 함께 읽으면 좋은 글
 
-- [사회복지시설 주휴수당 총정리｜발생요건부터 계산방법까지 한 번에 이해하기](/blog/weekly-holiday-pay-guide/)
+- [사회복지시설 주휴수당 총정리｜발생요건부터 계산방법까지 한 번에 이해하기](/blog/26070101-weekly-holiday-pay-guide/)
 - [사회복지시설 시간외근무수당 총정리](/blog/overtime-pay/)
 - [사회복지시설 급여 구조와 계산 방법 총정리](/blog/salary-guide/)
 
