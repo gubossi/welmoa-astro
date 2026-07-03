@@ -1,7 +1,7 @@
 ---
 title: "사회복지시설 근로계약서에서 꼭 확인해야 할 항목"
 description: "사회복지시설 근로계약서를 작성하기 전에 반드시 확인해야 할 계약기간, 근무시간, 호봉, 시간외근무, 명절휴가비, 전자근로계약까지 실무자가 알아야 할 내용을 정리했습니다."
-pubDate: 2026-07-03
+pubDate: 2026-07-02
 category: "인사·노무"
 thumbnail: "/images/blog/employment-contract-checklist.webp"
 heroImage: "/images/blog/employment-contract-checklist.webp"
@@ -11,7 +11,7 @@ featured: false
 
 # 사회복지시설 근로계약서에서 꼭 확인해야 할 항목
 
-게시일 2026-07-03 · Welmoa 콘텐츠
+게시일 2026-07-02 · Welmoa 콘텐츠
 
 사회복지시설에 입사하거나 새로운 기관으로 이직할 때 가장 먼저 작성하는 문서가 **근로계약서**입니다.
 
