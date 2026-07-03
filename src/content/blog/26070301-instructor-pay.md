@@ -1,7 +1,7 @@
 ---
 title: "사회복지시설 강사비 지급 실무 총정리｜강사수당·원천징수·사업소득 한 번에 이해하기"
 description: "사회복지시설 프로그램 강사비 지급기준, 강사수당 계산, 사업소득과 기타소득, 원천징수, 원고료, 지급서류까지 실무자가 자주 헷갈리는 내용을 실제 사례를 중심으로 정리했습니다."
-pubDate: "2026-07-03"
+pubDate: "2026-07-04"
 category: "행정·회계"
 thumbnail: "/images/blog/instructor-pay.webp"
 heroImage: "/images/blog/instructor-pay.webp"
