@@ -6,7 +6,7 @@ category: "행정·회계"
 thumbnail: "/images/blog/instructor-pay.webp"
 heroImage: "/images/blog/instructor-pay.webp"
 draft: false
-featured: false
+featured: true
 ---
 
 사회복지시설에서 프로그램을 운영하다 보면 강사비 지급은 생각보다 자주 발생하는 업무입니다.
