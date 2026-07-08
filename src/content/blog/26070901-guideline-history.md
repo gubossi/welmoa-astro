@@ -2,7 +2,7 @@
 title: "2015~2026 사회복지시설 종사자 인건비 가이드라인, 10년의 변화"
 description: "웰모아에서 2015년부터 2026년까지의 사회복지시설 종사자 인건비 가이드라인을 직접 비교·분석했습니다. 기본급부터 가족수당, 승진기준, 급여관리까지 최근 10년의 변화와 흐름을 정리했습니다."
 pubDate: "2026-07-09"
-category: "인사노무"
+category: "웰모아 칼럼"
 thumbnail: "/images/blog/26070901-guideline-history.webp"
 heroImage: "/images/blog/26070901-guideline-history.webp"
 draft: false
