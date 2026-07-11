@@ -5,7 +5,7 @@ pubDate: 2026-07-12
 category: "인사·노무"
 thumbnail: "/images/blog/26071201-rest-break-guide.webp"
 heroImage: "/images/blog/26071201-rest-break-guide.webp"
-draft: true
+draft: false
 featured: false
 ---
 
