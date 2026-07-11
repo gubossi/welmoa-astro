@@ -41,7 +41,7 @@ featured: false
 
 이 세 가지를 함께 확인해야 합니다.
 
-> 참고: [국가법령정보센터 근로기준법 제54조](https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000993065)
+> 참고: <a href="https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000993065" target="_blank" rel="noopener noreferrer">국가법령정보센터 근로기준법 제54조</a>
 
 ## 9시부터 18시까지 근무하면서 14시부터 쉬어도 될까?
 
@@ -114,7 +114,7 @@ featured: false
 
 다만 점심시간 중 우연히 전화를 한 번 받았다는 사실만으로 그날의 휴게시간 전체가 반드시 근로시간이 된다고 단정할 수는 없습니다. 기관이 전화 응대나 이용자 관찰을 반복적·상시적으로 요구했는지, 직원이 그 시간을 실질적으로 자유롭게 이용할 수 있었는지 등을 구체적으로 살펴봐야 합니다.
 
-> 참고: [고용노동부－점심시간에도 일해야 하는데 근무시간으로 인정되나요?](https://www.moel.go.kr/news/cardinfo/view.do?bbs_seq=20220501461)
+> 참고: <a href="https://www.moel.go.kr/news/cardinfo/view.do?bbs_seq=20220501461" target="_blank" rel="noopener noreferrer">고용노동부－점심시간에도 일해야 하는데 근무시간으로 인정되나요?</a>
 
 ## 직원이 원해서 휴게시간에도 일했다면?
 
