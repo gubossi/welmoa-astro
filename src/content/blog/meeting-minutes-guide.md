@@ -325,7 +325,7 @@ featured: false
 
 ## 관련 글
 
-[사회복지시설에서 자주 사용하는 공문 종류](/blog/official-document-types/)
-[사회복지시설 신규직원이 가장 헷갈리는 행정용어 정리](/blog/new-worker-admin-terms/)
-[사회복지시설 개인정보 관리 체크리스트](/blog/privacy-checklist/)
-[사회복지시설 실적보고 작성 시 자주 하는 실수](/blog/performance-report-mistakes/)
+- [사회복지시설에서 자주 사용하는 공문 종류](/blog/official-document-types/)
+- [사회복지시설 신규직원이 가장 헷갈리는 행정용어 정리](/blog/new-worker-admin-terms/)
+- [사회복지시설 개인정보 관리 체크리스트](/blog/privacy-checklist/)
+- [사회복지시설 실적보고 작성 시 자주 하는 실수](/blog/performance-report-mistakes/)
