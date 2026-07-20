@@ -1,7 +1,7 @@
 ---
 title: "사회복지시설 퇴직연금(DB·DC) 쉽게 이해하기"
 description: "사회복지시설에서 많이 운영하는 퇴직연금 DB형과 DC형의 차이, 퇴직금과의 차이, 확인 방법을 쉽게 정리했습니다."
-pubDate: "2026-05-09"
+pubDate: "2026-07-09"
 category: "인사·노무"
 thumbnail: "/images/blog/severance-pay-guide.webp"
 heroImage: "/images/blog/severance-pay-guide.webp"
