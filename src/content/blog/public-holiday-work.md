@@ -1,7 +1,7 @@
 ---
 title: "사회복지시설 공휴일 근무 기준 총정리"
 description: "사회복지시설 공휴일 근무 시 휴일근로수당, 휴일대체, 대체공휴일 등 실무에서 가장 많이 헷갈리는 기준을 질문과 사례 중심으로 정리했습니다."
-pubDate: "2026-05-09"
+pubDate: "2026-07-10"
 category: "인사·노무"
 thumbnail: "/images/blog/public-holiday-work.webp"
 heroImage: "/images/blog/public-holiday-work.webp"
