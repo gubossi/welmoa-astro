@@ -1,7 +1,7 @@
 ---
 title: "비과세 수당이란? 과세 수당과의 차이 쉽게 이해하기"
 description: "비과세 수당(비과세 근로소득)과 과세 수당의 차이, 대표적인 비과세 항목과 적용 원리를 쉽게 정리했습니다. 식대, 자가운전보조금, 출산·보육 관련 수당 등 실무에서 자주 헷갈리는 내용을 함께 알아보세요."
-pubDate: "2026-05-26"
+pubDate: "2026-07-09"
 category: "급여"
 thumbnail: "/images/blog/taxable-vs-nontaxable.webp"
 heroImage: "/images/blog/taxable-vs-nontaxable.webp"
