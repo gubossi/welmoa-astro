@@ -539,7 +539,7 @@ featured: false
 ## 관련 도구와 글
 
 - [명단정리 도구 바로가기](https://tools.welmoa.kr/formatter/)
-- [사회복지시설 신규직원이 가장 헷갈리는 행정용어 정리](/blog/new-worker-admin-terms／)
-- [사회복지시설 보조금 정산 시 주의할 점](/blog/subsidy-settlement/)
-- [사회복지시설 개인정보 관리 체크리스트](/blog/privacy-management-checklist/)
+- [사회복지시설 신규직원이 가장 헷갈리는 행정용어 정리](/blog/new-worker-admin-terms)
+- [사회복지시설 보조금 정산 시 주의할 점](/blog/subsidy-settlement-guide/)
+- [사회복지시설 개인정보 관리 체크리스트](/blog/privacy-checklist/)
 - [사회복지시설 회의록 작성 방법](/blog/meeting-minutes-guide/)
