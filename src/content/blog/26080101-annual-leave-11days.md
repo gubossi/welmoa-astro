@@ -2,7 +2,7 @@
 title: "1년 미만 연차 11일, 입사 1주년에 정말 모두 소멸할까요?"
 description: "2020년 근로기준법 개정 이후 달라진 1년 미만 연차휴가의 사용기한과 자주 하는 오해를 쉽게 정리했습니다."
 pubDate: 2026-08-01
-category: "법·제도"
+category: "인사·노무"
 thumbnail: "/images/blog/annual-leave-11days.webp"
 heroImage: "/images/blog/annual-leave-11days.webp"
 draft: false
