@@ -5,7 +5,7 @@ pubDate: 2026-08-02
 category: "급여"
 thumbnail: "/images/blog/social-welfare-pay-guideline.webp"
 heroImage: "/images/blog/social-welfare-pay-guideline.webp"
-draft: true
+draft: false
 featured: false
 ---
 
