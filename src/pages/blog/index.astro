@@ -23,9 +23,7 @@ const featuredIds = new Set(featured.map((post) => post.id));
 const latest = posts
   .filter((post) => !featuredIds.has(post.id))
   .slice(0, 9);
-const allSearchPosts = posts.filter(
-  (post) => !featuredIds.has(post.id)
-);
+const allSearchPosts = posts;
 const categories = [...new Set(posts.map((post) => post.data.category))];
 ---
 
@@ -100,8 +98,9 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       <div class="search-box">
         <input
           id="postSearch"
+          name="q"
           type="search"
-          placeholder="제목이나 설명으로 검색해 보세요"
+          placeholder="제목, 설명 또는 분류로 검색해 보세요"
           aria-label="콘텐츠 검색"
         />
       </div>
@@ -174,6 +173,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       <span>{post.data.pubDate.toLocaleDateString('ko-KR')}</span>
       </article>
      ))}
+     <p class="search-empty" hidden>검색 결과가 없습니다. 다른 검색어를 입력해 보세요.</p>
     </div>
     <div class="more-actions">
       <a class="btn secondary" href="/blog/archive/">전체 글 보기</a>
@@ -184,23 +184,48 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
   const defaultPosts = document.querySelector('.default-posts');
   const searchResults = document.querySelector('.search-results');
   const searchCards = document.querySelectorAll('.search-card');
+  const searchEmpty = document.querySelector('.search-empty');
+  const globalSearchInput = document.querySelector('#globalSearchInput');
 
-  input?.addEventListener('input', (e) => {
-    const keyword = e.target.value.toLowerCase().trim();
+  const filterPosts = (value) => {
+    const keyword = value.toLowerCase().trim();
 
     if (keyword === '') {
       defaultPosts.style.display = 'block';
       searchResults.hidden = true;
+      if (searchEmpty) searchEmpty.hidden = true;
       return;
     }
 
     defaultPosts.style.display = 'none';
     searchResults.hidden = false;
+    let visibleCount = 0;
 
     searchCards.forEach((card) => {
       const text = card.textContent.toLowerCase();
-      card.style.display = text.includes(keyword) ? 'grid' : 'none';
+      const isMatch = text.includes(keyword);
+      card.style.display = isMatch ? 'grid' : 'none';
+      if (isMatch) visibleCount += 1;
     });
+
+    if (searchEmpty) searchEmpty.hidden = visibleCount > 0;
+  };
+
+  const params = new URLSearchParams(window.location.search);
+  const initialKeyword = params.get('q')?.trim() ?? '';
+
+  if (input && initialKeyword) {
+    input.value = initialKeyword;
+    filterPosts(initialKeyword);
+    document.querySelector('#postSearch')?.scrollIntoView({ block: 'center' });
+  }
+
+  if (globalSearchInput && initialKeyword) {
+    globalSearchInput.value = initialKeyword;
+  }
+
+  input?.addEventListener('input', (event) => {
+    filterPosts(event.target.value);
   });
 </script>
 </BaseLayout>
