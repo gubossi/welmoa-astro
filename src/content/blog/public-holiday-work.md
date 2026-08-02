@@ -2,6 +2,7 @@
 title: "사회복지시설 공휴일 근무 기준 총정리"
 description: "사회복지시설 공휴일 근무 시 휴일근로수당, 휴일대체, 대체공휴일 등 실무에서 가장 많이 헷갈리는 기준을 질문과 사례 중심으로 정리했습니다."
 pubDate: "2026-07-10"
+updatedDate: 2026-08-02
 category: "인사·노무"
 thumbnail: "/images/blog/public-holiday-work.webp"
 heroImage: "/images/blog/public-holiday-work.webp"
@@ -191,3 +192,13 @@ featured: true
 # 함께 읽으면 도움이 되는 글
 - 👉 [사회복지 종사자 연차와 대체휴무 기준 총정리](/blog/annual-leave-substitute-holiday/)
 - 👉 [보상휴가? 대체휴무? 휴일대체? 사회복지 현장에서 가장 헷갈리는 근무 용어 정리](/blog/26060201-work-schedule-terms-explained/)
+
+---
+
+## 참고자료
+
+- 국가법령정보센터, [근로기준법 제55조·제56조(휴일과 휴일근로 가산임금)](https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1025589869)
+- 국가법령정보센터, [근로기준법 시행령 제30조(휴일)](https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270551)
+- 국가법령정보센터, [관공서의 공휴일에 관한 규정](https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1018770085)
+
+※ 2026년 8월 2일 기준 법령을 확인했습니다. 5인 미만 사업장 여부, 취업규칙과 단체협약, 휴일대체의 서면합의 및 실제 근무 형태에 따라 적용이 달라질 수 있습니다.

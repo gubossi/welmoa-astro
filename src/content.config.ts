@@ -7,6 +7,8 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    author: z.string().default('Welmoa 운영자'),
     category: z.string(),
     thumbnail: z.string().optional(),
     heroImage: z.string().optional(),

@@ -2,6 +2,7 @@
 title: "1년 미만 연차 11일, 입사 1주년에 정말 모두 소멸할까요?"
 description: "2020년 근로기준법 개정 이후 달라진 1년 미만 연차휴가의 사용기한과 자주 하는 오해를 쉽게 정리했습니다."
 pubDate: 2026-08-01
+updatedDate: 2026-08-02
 category: "인사·노무"
 thumbnail: "/images/blog/annual-leave-11days.webp"
 heroImage: "/images/blog/annual-leave-11days.webp"
@@ -214,3 +215,12 @@ Welmoa는 앞으로도 사회복지 현장에서 자주 헷갈리는 노동법�
 - ② 연차사용촉진제도란? 연차수당을 못 받을 수도 있는 이유 *(예정)*
 - ③ 신입사원이 가장 많이 하는 연차 실수 5가지 *(예정)*
 - ④ 사회복지시설 연차관리 실무｜인사담당자가 꼭 알아야 할 체크포인트 *(예정)*
+
+---
+
+## 참고자료
+
+- 국가법령정보센터, [근로기준법 제60조(연차 유급휴가)](https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1012792285)
+- 국가법령정보센터, [근로기준법 제61조(연차 유급휴가의 사용 촉진)](https://www.law.go.kr/LSW/lsLinkProc.do?ancYd=20160302&joNo=006100000&lsClsCd=L&lsId=2031481&lsNm=%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95&mode=4)
+
+※ 2026년 8월 2일 기준 법령을 확인해 작성했습니다. 구체적인 미사용 연차수당과 사용촉진의 효력은 근로기간, 취업규칙, 서면 통보 절차 및 개별 사실관계에 따라 달라질 수 있습니다.

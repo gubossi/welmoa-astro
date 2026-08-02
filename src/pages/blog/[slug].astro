@@ -13,6 +13,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const canonical = new URL(`/blog/${post.id}/`, Astro.site).href;
 
 const posts = (await getCollection('blog'))
   .filter((p) => !p.data.draft)
@@ -35,6 +36,9 @@ const nextPost = posts[currentIndex - 1];
 <BaseLayout
   title={`${post.data.title} | Welmoa`}
   description={post.data.description}
+  canonical={canonical}
+  image={post.data.heroImage ?? post.data.thumbnail}
+  article={post.data}
 >
   <section class="container section">
     <article class="post-detail">
@@ -48,8 +52,20 @@ const nextPost = posts[currentIndex - 1];
       <p class="post-lead">{post.data.description}</p>
 
       <div class="post-meta">
-        {post.data.pubDate.toLocaleDateString('ko-KR')}
+        <span>게시 <time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('ko-KR')}</time></span>
+        {post.data.updatedDate && (
+          <span>최종 검토 <time datetime={post.data.updatedDate.toISOString()}>{post.data.updatedDate.toLocaleDateString('ko-KR')}</time></span>
+        )}
       </div>
+
+      <aside class="author-profile" aria-label="작성자 정보">
+        <div class="author-mark" aria-hidden="true">W</div>
+        <div>
+          <strong>{post.data.author}</strong>
+          <p>노인복지관·기업 사회공헌·종합사회복지관·장애인복지관 현장을 경험한 18년차 사회복지사가 공식 자료와 현장 경험을 바탕으로 작성하고 검토합니다.</p>
+          <a href="https://welmoa.kr/about/">운영자와 콘텐츠 작성 원칙 보기 →</a>
+        </div>
+      </aside>
 
 <img
   class="post-hero-image"

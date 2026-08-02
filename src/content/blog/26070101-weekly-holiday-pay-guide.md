@@ -2,6 +2,7 @@
 title: "사회복지시설 주휴수당 총정리｜발생요건, 계산방법, 지급기준 한 번에 이해하기"
 description: "사회복지시설 급여담당자를 위한 주휴수당 실무 가이드입니다. 주휴수당의 발생요건, 소정근로시간과 소정근로일의 개념, 단시간근로자의 계산 원리까지 실무 중심으로 쉽게 정리했습니다."
 pubDate: "2026-07-01"
+updatedDate: 2026-08-02
 category: "급여"
 thumbnail: "/images/blog/26070101-weekly-holiday-pay-guide.webp"
 heroImage: "/images/blog/26070101-weekly-holiday-pay-guide.webp"
@@ -406,3 +407,13 @@ featured: true
 **사회복지시설 주휴수당 실무 총정리①｜입사, 퇴사, 연차, 공휴일… 실무자가 가장 헷갈리는 사례 총정리**
 
 다음 글에서는 실제 현장에서 가장 많이 질문하는 사례를 중심으로 주휴수당을 자세히 살펴보겠습니다.
+
+---
+
+## 참고자료
+
+- 국가법령정보센터, [근로기준법 제55조(휴일)](https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900552087)
+- 국가법령정보센터, [근로기준법 시행령 제30조(휴일)](https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270551)
+- 고용노동부, [주휴수당 및 연차휴가 산정방법 관련 행정해석 변경 안내](https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=20210802167)
+
+※ 2026년 8월 2일 기준 법령과 고용노동부 자료를 확인했습니다. 주휴수당은 소정근로시간, 소정근로일, 근로관계 유지기간과 개별 근무형태에 따라 판단이 달라질 수 있습니다.

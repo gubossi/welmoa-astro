@@ -2,6 +2,7 @@
 title: "사회복지시설 보조금 정산 시 주의할 점"
 description: "사회복지시설 보조금 정산을 위해 확인해야 할 예산집행, 증빙자료, 사업실적, 집행잔액과 자주 발생하는 오류를 실무 중심으로 정리했습니다."
 pubDate: 2026-07-21
+updatedDate: 2026-08-02
 category: "행정·회계"
 thumbnail: "/images/blog/subsidy-settlement-guide.webp"
 heroImage: "/images/blog/subsidy-settlement-guide.webp"
@@ -233,6 +234,8 @@ featured: false
 - 최종 반납액
 
 지방보조금 관리기준은 지방보조금을 처음 교부받은 때부터 정산 후 집행잔액을 반환할 때까지 실제 발생한 이자를 정산 대상으로 규정하고 있습니다. 국고보조사업의 정산 검증에서도 집행액, 집행잔액, 불인정금액, 발생이자와 반환액 등을 구분하여 확인합니다. 다만 실제 반납 범위와 산정방법은 해당 사업의 교부조건과 지침을 우선 확인해야 합니다.
+
+### 참고자료
 
 - [행정안전부 지방보조금 관리기준](https://www.mois.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_00141661D4C6oWW&fileSn=0)
 - [국가법령정보센터 보조사업 정산보고서 검증지침](https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000199600)

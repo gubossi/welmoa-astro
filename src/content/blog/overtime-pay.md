@@ -3,6 +3,7 @@
 title: "사회복지시설 시간외근무수당 계산법과 실무 체크포인트"
 description: "연장근로, 휴일근로, 야간근로부터 실근로시간 판단, 출장·교육·캠프, 보상휴가까지 사회복지시설 실무자가 자주 헷갈리는 시간외근무 사례를 정리했습니다."
 pubDate: 2026-06-19
+updatedDate: 2026-08-02
 category: "인사·노무"
 thumbnail: "/images/blog/labor.webp"
 heroImage: "/images/blog/labor.webp"
@@ -180,3 +181,13 @@ featured: false
 👉 [수당 포함 급여 계산하기](https://tools.welmoa.kr/salary)
 
 [콘텐츠 목록으로 돌아가기](/blog/)
+
+---
+
+## 참고자료
+
+- 국가법령정보센터, [근로기준법 제50조(근로시간)](https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900552087)
+- 국가법령정보센터, [근로기준법 제56조(연장·야간 및 휴일 근로)](https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1025589869)
+- 보건복지부, [2026년 사회복지시설 종사자 인건비 가이드라인](https://www.mohw.go.kr/board.es?act=view&bid=0021&list_no=1488526&mid=a10413000000)
+
+※ 2026년 8월 2일 기준 법령과 가이드라인을 확인했습니다. 5인 미만 사업장 여부, 통상임금 범위, 사전승인 절차, 실제 근로시간과 보조금 지원기준에 따라 지급 범위가 달라질 수 있습니다.

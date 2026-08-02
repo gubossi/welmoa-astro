@@ -2,6 +2,7 @@
 title: "사회복지시설 강사비 지급 실무 총정리｜강사수당·원천징수·사업소득 한 번에 이해하기"
 description: "사회복지시설 프로그램 강사비 지급기준, 강사수당 계산, 사업소득과 기타소득, 원천징수, 원고료, 지급서류까지 실무자가 자주 헷갈리는 내용을 실제 사례를 중심으로 정리했습니다."
 pubDate: "2026-07-04"
+updatedDate: 2026-08-02
 category: "행정·회계"
 thumbnail: "/images/blog/instructor-pay.webp"
 heroImage: "/images/blog/instructor-pay.webp"
@@ -310,3 +311,13 @@ featured: true
 아직 확인하지 않았다면 아래 글도 함께 읽어보세요.
 
 - [사회복지시설 외부강사, 근로자일까 프리랜서일까? 계약과 운영 실무 총정리](/blog/instructor-fee-checklist/)
+
+---
+
+## 참고자료
+
+- 국세청, [기타소득의 종류－강의료·원고료 소득 구분](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7890&mi=6454)
+- 국세청, [기타소득 원천징수 방법](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7893&mi=6612)
+- 국세청, [근로소득·사업소득·기타소득의 구분](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=8165&mi=6582)
+
+※ 2026년 8월 2일 기준 국세청 안내를 확인했습니다. 강의의 계속성·독립성, 고용관계 및 계약의 실질에 따라 소득 구분과 원천징수 방식이 달라질 수 있으므로 기관의 세무담당자 또는 관할 세무서 확인이 필요할 수 있습니다.

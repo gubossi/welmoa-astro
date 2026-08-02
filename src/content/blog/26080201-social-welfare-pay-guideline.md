@@ -2,6 +2,7 @@
 title: "사회복지시설 인건비 가이드라인, 모든 시설에 적용될까?"
 description: "2026년 사회복지시설 종사자 인건비 가이드라인의 적용 대상과 제외 시설, 권고기준의 효력과 실제 지급기준을 확인하는 방법을 정리했습니다."
 pubDate: 2026-08-02
+updatedDate: 2026-08-02
 category: "급여"
 thumbnail: "/images/blog/social-welfare-pay-guideline.webp"
 heroImage: "/images/blog/social-welfare-pay-guideline.webp"

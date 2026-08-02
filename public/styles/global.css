@@ -452,6 +452,49 @@ nav a:hover {
   margin-top: 18px;
   color: #64748b;
   font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+
+.author-profile {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-top: 22px;
+  padding: 18px 20px;
+  border: 1px solid #dbe5f3;
+  border-radius: 18px;
+  background: #f8fbff;
+}
+
+.author-mark {
+  display: grid;
+  place-items: center;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 800;
+}
+
+.author-profile strong {
+  color: #172554;
+}
+
+.author-profile p {
+  margin: 5px 0 7px;
+  color: #53657a;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.author-profile a {
+  color: #1d4ed8;
+  font-size: 0.86rem;
+  font-weight: 700;
 }
 
 .post-content {
