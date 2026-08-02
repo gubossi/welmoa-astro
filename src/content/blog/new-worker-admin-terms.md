@@ -660,5 +660,5 @@ featured: false
 
 - [사회복지시설 실적보고 작성 방법｜실인원·연인원·건수·회기와 자주 하는 실수](/blog/performance-report-mistakes/)
 - [사회복지시설에서 자주 사용하는 공문 종류](/blog/official-document-types/)
-- [사회복지시설 보조금 정산 시 주의할 점](/blog/subsidy-settlement/)
+- [사회복지시설 보조금 정산 시 주의할 점](/blog/subsidy-settlement-guide/)
 - [사회복지시설 회의록 작성 방법](/blog/meeting-minutes-guide/)

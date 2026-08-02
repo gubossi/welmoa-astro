@@ -3,6 +3,7 @@
 title: "사회복지시설 급여 구조와 계산 방법 총정리"
 description: "기본급, 각종 수당, 4대보험, 세금 공제, 실수령액까지 사회복지시설 급여의 전체 구조를 쉽게 설명합니다."
 pubDate: 2026-06-24
+updatedDate: 2026-08-02
 category: "급여"
 thumbnail: "/images/blog/payroll.webp"
 heroImage: "/images/blog/payroll.webp"
@@ -238,3 +239,11 @@ featured: true
 * [시간외근무수당 계산법과 실무 체크 포인트](/blog/overtime-pay/)
 
 [콘텐츠 목록으로 돌아가기](/blog/)
+
+## 참고자료
+
+- 보건복지부, [2026년 사회복지시설 종사자 인건비 가이드라인](https://www.mohw.go.kr/board.es?act=view&bid=0021&list_no=1488526&mid=a10413000000)
+- 국민연금공단, [2026년 국민연금 보험료율 안내](https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0095M0.do)
+- 국민건강보험공단, [2026년 건강보험·장기요양보험 제도 변경 안내](https://www.nhis.or.kr/renewal_popup/poster/20260204_poster_longdesc_1.html)
+
+※ 2026년 8월 2일 기준 공개된 가이드라인과 보험료율을 확인했습니다. 실제 지급액은 지자체 기준, 기관 보수규정, 수당 및 개인별 공제 조건에 따라 달라질 수 있습니다.

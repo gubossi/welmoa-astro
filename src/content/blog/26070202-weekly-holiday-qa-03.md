@@ -2,6 +2,7 @@
 title: "사회복지시설 주휴수당 실무③｜이럴 때도 주휴수당을 지급해야 할까요?"
 description: "결근, 지각·조퇴, 공휴일 등 실제 사례를 통해 주휴수당 지급 여부를 쉽게 이해해보세요. 사회복지시설 급여 담당자가 가장 많이 헷갈리는 사례를 중심으로 정리했습니다."
 pubDate: "2026-07-02"
+updatedDate: 2026-08-02
 category: "급여"
 thumbnail: "/images/blog/26070202-weekly-holiday-qa-03.webp"
 heroImage: "/images/blog/26070202-weekly-holiday-qa-03.webp"
@@ -354,3 +355,10 @@ featured: false
 ---
 
 > ※ 이 글은 근로기준법, 근로기준법 시행령 및 고용노동부 행정해석 등을 참고하여 사회복지시설 실무 관점에서 이해하기 쉽게 정리한 내용입니다. 실제 적용 시에는 취업규칙, 단체협약 및 구체적인 사실관계를 함께 확인하시기 바랍니다.
+
+## 참고자료
+
+- 국가법령정보센터, [근로기준법 제55조(휴일)](https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900552087)
+- 고용노동부 고객상담센터, [주휴수당 지급기준](https://1350.moel.go.kr/rtmview.do?id=1000059852)
+
+※ 2026년 8월 2일 기준 공식 자료를 다시 확인했습니다.

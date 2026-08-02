@@ -2,6 +2,7 @@
 title: "사회복지시설 근로계약서에서 꼭 확인해야 할 항목"
 description: "사회복지시설 근로계약서를 작성하기 전에 반드시 확인해야 할 계약기간, 근무시간, 호봉, 시간외근무, 명절휴가비, 전자근로계약까지 실무자가 알아야 할 내용을 정리했습니다."
 pubDate: 2026-07-02
+updatedDate: 2026-08-02
 category: "인사·노무"
 thumbnail: "/images/blog/employment-contract-checklist.webp"
 heroImage: "/images/blog/employment-contract-checklist.webp"
@@ -253,3 +254,10 @@ featured: false
 - [사회복지시설 급여 구조와 계산 방법 총정리](/blog/salary-guide/)
 
 [← 콘텐츠 목록으로 돌아가기](/blog/)
+
+## 참고자료
+
+- 국가법령정보센터, [근로기준법 제17조(근로조건의 명시)](https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010201&lsJoLnkSeq=1015677481)
+- 고용노동부, [표준근로계약서 작성 안내](https://www.moel.go.kr/mainpop2.do)
+
+※ 2026년 8월 2일 기준 법령과 고용노동부 안내를 확인했습니다. 실제 계약에는 기관의 취업규칙과 적용되는 보수·수당 기준도 함께 반영해야 합니다.

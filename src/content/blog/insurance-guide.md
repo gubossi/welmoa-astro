@@ -2,6 +2,7 @@
 title: "4대보험 계산 쉽게 이해하기 : 보험료 공제부터 실무 사례까지"
 description: "사회복지 현장에서 자주 확인하는 4대보험의 개념, 공제 흐름, 실무 체크 포인트를 쉽게 설명한 글"
 pubDate: 2026-06-19
+updatedDate: 2026-08-02
 category: "행정·회계"
 thumbnail: "/images/blog/accounting.webp"
 heroImage: "/images/blog/accounting.webp"
@@ -175,3 +176,9 @@ https://tools.welmoa.kr/salary
 
 급여 계산 결과는 참고용으로 활용하시고, 실제 보험료 및 신고 기준은 관련 법령과 공단 안내를 반드시 확인하시기 바랍니다.
 
+## 참고자료
+
+- 국민연금공단, [2026년 국민연금 보험료율 안내](https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0095M0.do)
+- 국민건강보험공단, [2026년 건강보험·장기요양보험 제도 변경 안내](https://www.nhis.or.kr/renewal_popup/poster/20260204_poster_longdesc_1.html)
+
+※ 2026년 8월 2일 기준 국민연금 보험료율 9.5%, 건강보험료율 7.19%, 장기요양보험료율 0.9448%를 확인했습니다. 고용보험과 산재보험은 사업 종류와 대상자 조건 등에 따라 적용 방식이 달라질 수 있습니다.

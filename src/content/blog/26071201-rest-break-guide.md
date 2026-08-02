@@ -2,6 +2,7 @@
 title: "휴게시간은 꼭 12시부터 1시까지여야 할까?"
 description: "사회복지시설 휴게시간의 법적 기준과 교대 운영, 이용자 식사 지원, 전화 대기 등 실무에서 자주 발생하는 사례를 정리합니다."
 pubDate: 2026-07-12
+updatedDate: 2026-08-02
 category: "인사·노무"
 thumbnail: "/images/blog/26071201-rest-break-guide.webp"
 heroImage: "/images/blog/26071201-rest-break-guide.webp"
@@ -260,3 +261,10 @@ featured: false
 ---
 
 ※ 이 글은 일반적인 근로기준을 설명하기 위한 자료입니다. 개별 기관의 근로계약, 취업규칙 및 실제 업무 지시 방식에 따라 판단이 달라질 수 있습니다.
+
+## 참고자료
+
+- 국가법령정보센터, [근로기준법 제54조(휴게)](https://www.law.go.kr/lsInfoP.do?joNo=005400&lsId=001872)
+- 국가법령정보센터, [2027년 6월 10일 시행 근로기준법 개정문](https://www.law.go.kr/lsInfoP.do?lsiSeq=286771&viewCls=lsRvsDocInfoR)
+
+※ 2026년 8월 2일 기준 현행법과 공포된 개정법을 확인했습니다. 4시간 근로 시 근로자의 명시적 요청에 따라 휴게시간을 사용하지 않을 수 있도록 하는 개정 규정은 2027년 6월 10일부터 시행됩니다.

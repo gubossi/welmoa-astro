@@ -225,7 +225,7 @@ featured: false
 ## 함께 보면 좋은 글
 
 - [사회복지시설 급여 구조와 계산 방법 총정리](/blog/salary-guide/)
-- [사회복지사 급여명세서 보는 방법](/blog/payslip-guide/)
+- [사회복지사 급여명세서 보는 방법](/blog/new-worker-pay/)
 - [사회복지시설 4대보험 이해하기](/blog/insurance-guide/)
 - [사회복지사 퇴직금은 어떻게 계산될까?](/blog/severance-pay-guide/)
 - [사회복지시설 시간외근무수당 계산 방법](/blog/overtime-pay/)

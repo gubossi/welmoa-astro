@@ -2,6 +2,7 @@
 title: "사회복지시설 퇴직연금(DB·DC) 쉽게 이해하기"
 description: "사회복지시설에서 많이 운영하는 퇴직연금 DB형과 DC형의 차이, 퇴직금과의 차이, 확인 방법을 쉽게 정리했습니다."
 pubDate: "2026-07-09"
+updatedDate: 2026-08-02
 category: "인사·노무"
 thumbnail: "/images/blog/severance-pay-guide.webp"
 heroImage: "/images/blog/severance-pay-guide.webp"
@@ -157,6 +158,12 @@ DB형과 DC형의 차이를 이해하면 퇴직급여 제도도 훨씬 쉽게 �
 
 ## 함께 보면 좋은 글
 
-- [사회복지사 급여명세서 보는 방법](/blog/payslip-guide/)
+- [사회복지사 급여명세서 보는 방법](/blog/new-worker-pay/)
 - [비과세 수당이란? 과세 수당과의 차이 쉽게 이해하기](/blog/taxable-vs-nontaxable/)
-- 출산휴가·육아휴직 중 퇴직연금은 어떻게 적립될까? *(준비 중)*
+
+## 참고자료
+
+- 고용노동부, [퇴직연금제도 안내](https://www.moel.go.kr/retirementpay.do)
+- 고용노동부, [DB형·DC형·IRP 차이 안내](https://www.moel.go.kr/news/cardinfo/view.do?bbs_seq=20220300928)
+
+※ 2026년 8월 2일 기준 고용노동부 자료를 확인했습니다. 실제 적립액과 수령 절차는 가입 제도, 근속기간 및 퇴직연금사업자 안내에 따라 달라질 수 있습니다.
