@@ -22,6 +22,7 @@ a {
 
 /* Header */
 .site-header {
+  position: relative;
   background: white;
   border-bottom: 1px solid #e2e8f0;
 }
@@ -39,18 +40,97 @@ a {
   color: #2563eb;
 }
 
-nav {
+.header-nav {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
-nav a {
+.header-nav a {
   color: #334155;
   font-weight: 600;
 }
 
-nav a:hover {
+.header-nav a:hover {
   color: #2563eb;
+}
+
+.global-search-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  background: transparent;
+  color: #334155;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.global-search-toggle:hover,
+.global-search-toggle[aria-expanded='true'] {
+  color: #2563eb;
+}
+
+.global-search-toggle span[aria-hidden='true'] {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.global-search-panel {
+  border-top: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.global-search-panel[hidden] {
+  display: none;
+}
+
+.global-search-form {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.global-search-form label {
+  display: block;
+  margin-bottom: 7px;
+  color: #334155;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.global-search-field {
+  display: flex;
+  gap: 8px;
+}
+
+.global-search-field input {
+  flex: 1;
+  min-width: 0;
+  min-height: 46px;
+  padding: 0 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 13px;
+  background: white;
+  color: #0f172a;
+  font: inherit;
+}
+
+.global-search-field input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.global-search-field button {
+  min-width: 76px;
+  border: 0;
+  border-radius: 13px;
+  background: #2563eb;
+  color: white;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -425,6 +505,15 @@ nav a:hover {
   display: none !important;
 }
 
+.search-empty {
+  padding: 36px 20px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 18px;
+  background: white;
+  color: #64748b;
+  text-align: center;
+}
+
 /* Post detail */
 .post-detail {
   max-width: 1080px;
@@ -607,8 +696,20 @@ nav a:hover {
     gap: 14px;
   }
 
-  nav {
+  .header-nav {
     flex-wrap: wrap;
+  }
+
+  .global-search-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   .card-grid,
