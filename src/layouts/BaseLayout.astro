@@ -68,7 +68,7 @@ const jsonLd = article && {
     }
   </script>
 
-  <link rel="stylesheet" href="/styles/global.css?v=20260802-2" />
+  <link rel="stylesheet" href="/styles/global.css?v=20260802-3" />
 </head>
 
   <body>
@@ -80,12 +80,37 @@ const jsonLd = article && {
     <span class="brand-tagline">사회복지 실무자를 위한 정보와 도구 플랫폼</span>
   </div>
 
-<nav>
+<nav class="header-nav" aria-label="주요 메뉴">
         <a href="https://welmoa.kr/">홈</a>
         <a href="https://blog.welmoa.kr/blog/">콘텐츠</a>
         <a href="https://tools.welmoa.kr/tools/">도구</a>
         <a href="https://tools.welmoa.kr/about/">소개</a>
+        <button
+          class="global-search-toggle"
+          type="button"
+          aria-label="콘텐츠 검색 열기"
+          aria-expanded="false"
+          aria-controls="globalSearchPanel"
+        >
+          <span aria-hidden="true">⌕</span>
+          <span class="global-search-label">검색</span>
+        </button>
       </nav>
+    </div>
+    <div id="globalSearchPanel" class="global-search-panel" hidden>
+      <form class="container global-search-form" action="/blog/" method="get" role="search">
+        <label for="globalSearchInput">콘텐츠 검색</label>
+        <div class="global-search-field">
+          <input
+            id="globalSearchInput"
+            name="q"
+            type="search"
+            placeholder="제목, 설명 또는 분류로 검색해 보세요"
+            autocomplete="off"
+          />
+          <button type="submit">검색</button>
+        </div>
+      </form>
     </div>
   </header>
 
@@ -109,6 +134,36 @@ const jsonLd = article && {
 </footer>
 
 <script type="module">
+  const searchToggle = document.querySelector('.global-search-toggle');
+  const searchPanel = document.querySelector('#globalSearchPanel');
+  const globalSearchInput = document.querySelector('#globalSearchInput');
+
+  const closeGlobalSearch = () => {
+    if (!searchToggle || !searchPanel) return;
+
+    searchPanel.hidden = true;
+    searchToggle.setAttribute('aria-expanded', 'false');
+    searchToggle.setAttribute('aria-label', '콘텐츠 검색 열기');
+  };
+
+  searchToggle?.addEventListener('click', () => {
+    if (!searchPanel) return;
+
+    const willOpen = searchPanel.hidden;
+    searchPanel.hidden = !willOpen;
+    searchToggle.setAttribute('aria-expanded', String(willOpen));
+    searchToggle.setAttribute('aria-label', willOpen ? '콘텐츠 검색 닫기' : '콘텐츠 검색 열기');
+
+    if (willOpen) globalSearchInput?.focus();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchPanel && !searchPanel.hidden) {
+      closeGlobalSearch();
+      searchToggle?.focus();
+    }
+  });
+
   const hasMermaidBlock = Array.from(document.querySelectorAll('pre code')).some((block) => {
     const text = block.textContent.trim();
     const className = block.className || '';
