@@ -83,6 +83,14 @@ const nextPost = posts[currentIndex - 1];
         <Content />
       </div>
 
+      <div data-welmoa-engagement-mount data-page-type="content"></div>
+      <script
+        is:inline
+        defer
+        src="https://tools.welmoa.kr/assets/engagement.js?v=20260802-1"
+        data-welmoa-engagement="content"
+      ></script>
+
       <nav class="post-nav" aria-label="이전글 다음글">
         {prevPost && (
           <a class="post-nav-card prev" href={`/blog/${prevPost.id}/`}>
