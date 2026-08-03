@@ -2,7 +2,7 @@
 title: "유연근무·시차출퇴근·탄력근무·선택근무, 무엇이 다를까?"
 description: "사회복지시설에서 자주 혼용하는 유연근무, 시차출퇴근제, 탄력적 근로시간제, 선택적 근로시간제의 차이와 도입 요건을 사례 중심으로 정리했습니다."
 pubDate: 2026-08-03
-category: "법·제도"
+category: "인사·노무"
 thumbnail: "/images/blog/26080301-flexible-work-types.webp"
 heroImage: "/images/blog/26080301-flexible-work-types.webp"
 draft: false
