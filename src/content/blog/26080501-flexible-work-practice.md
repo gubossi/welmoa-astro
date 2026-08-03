@@ -2,7 +2,7 @@
 title: "우리 기관의 탄력근무, 정말 탄력적 근로시간제일까?"
 description: "10시간 근무 후 6시간 근무, 토요일 근무 전후 평일 휴무, 보상휴가 등 사회복지시설에서 자주 사용하는 탄력근무 방식을 사례별로 점검합니다."
 pubDate: 2026-08-05
-category: "법·제도"
+category: "인사·노무"
 thumbnail: "/images/blog/26080501-flexible-work-practice.webp"
 heroImage: "/images/blog/26080501-flexible-work-practice.webp"
 draft: true
