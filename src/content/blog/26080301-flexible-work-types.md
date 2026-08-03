@@ -5,7 +5,7 @@ pubDate: 2026-08-03
 category: "법·제도"
 thumbnail: "/images/blog/26080301-flexible-work-types.webp"
 heroImage: "/images/blog/26080301-flexible-work-types.webp"
-draft: true
+draft: false
 featured: false
 ---
 
