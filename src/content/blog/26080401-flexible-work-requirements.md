@@ -5,7 +5,7 @@ pubDate: 2026-08-04
 category: "인사·노무"
 thumbnail: "/images/blog/26080401-flexible-work-requirements.webp"
 heroImage: "/images/blog/26080401-flexible-work-requirements.webp"
-draft: true
+draft: false
 featured: false
 ---
 
