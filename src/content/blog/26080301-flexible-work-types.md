@@ -6,7 +6,7 @@ category: "인사·노무"
 thumbnail: "/images/blog/26080301-flexible-work-types.webp"
 heroImage: "/images/blog/26080301-flexible-work-types.webp"
 draft: false
-featured: false
+featured: true
 ---
 
 # 유연근무·시차출퇴근·탄력근무·선택근무, 무엇이 다를까?
