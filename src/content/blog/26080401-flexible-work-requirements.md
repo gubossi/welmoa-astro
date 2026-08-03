@@ -1,10 +1,10 @@
 ---
 title: "탄력적 근로시간제는 어떻게 도입해야 할까?"
 description: "2주 이내, 3개월 이내, 3개월 초과 6개월 이내 탄력적 근로시간제의 도입 요건과 취업규칙, 근로자대표 서면합의, 사전 근무표 작성 기준을 정리했습니다."
-pubDate: 2026-08-03
-category: "법·제도"
-thumbnail: "/images/blog/26080302-flexible-work-requirements.webp"
-heroImage: "/images/blog/26080302-flexible-work-requirements.webp"
+pubDate: 2026-08-04
+category: "인사·노무"
+thumbnail: "/images/blog/26080401-flexible-work-requirements.webp"
+heroImage: "/images/blog/26080401-flexible-work-requirements.webp"
 draft: true
 featured: false
 ---
