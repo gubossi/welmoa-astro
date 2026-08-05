@@ -2,7 +2,7 @@
 title: "바이브코딩, 꼭 배워야 할까요? 중요한 건 결국 활용입니다"
 description: "바이브코딩의 뜻부터 사회복지 현장의 문제를 AI와 함께 도구로 구현하며 알게 된 점까지, 웰모아를 만들어온 경험을 바탕으로 정리했습니다."
 pubDate: 2026-08-06
-category: "사회복지를 넘어서"
+category: "AI"
 thumbnail: "/images/blog/vibe-coding-in-practice.webp"
 heroImage: "/images/blog/vibe-coding-in-practice.webp"
 draft: false
