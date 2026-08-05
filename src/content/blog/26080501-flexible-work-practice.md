@@ -5,7 +5,7 @@ pubDate: 2026-08-05
 category: "인사·노무"
 thumbnail: "/images/blog/26080501-flexible-work-practice.webp"
 heroImage: "/images/blog/26080501-flexible-work-practice.webp"
-draft: true
+draft: false
 featured: false
 ---
 
