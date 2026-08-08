@@ -12,7 +12,7 @@ export async function GET() {
 
   return b.id.localeCompare(a.id);
 })
-    .slice(0, 6)
+    .slice(0, 12)
 .map((post) => ({
   title: post.data.title,
   description: post.data.description,
