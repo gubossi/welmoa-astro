@@ -5,7 +5,7 @@ pubDate: 2026-08-09
 category: "행정·회계"
 thumbnail: "/images/blog/26080903-social-welfare-purchase-process.webp"
 heroImage: "/images/blog/26080903-social-welfare-purchase-process.webp"
-draft: true
+draft: false
 featured: false
 ---
 
