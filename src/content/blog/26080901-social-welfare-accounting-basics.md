@@ -2,7 +2,7 @@
 title: "사회복지시설 회계, 왜 따로 배워야 할까?"
 description: "대학생과 신입직원을 위해 사회복지시설 재무·회계의 특징과 법적 근거, 회계 구분, 전체 업무 흐름을 쉽게 설명합니다."
 pubDate: 2026-08-09
-category: "사회복지 실무"
+category: "행정·회계"
 thumbnail: "/images/blog/26080901-social-welfare-accounting-basics.webp"
 heroImage: "/images/blog/26080901-social-welfare-accounting-basics.webp"
 draft: true
