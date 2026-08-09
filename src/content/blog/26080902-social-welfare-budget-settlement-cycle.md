@@ -2,7 +2,7 @@
 title: "예산부터 결산까지, 사회복지시설 회계의 1년"
 description: "대학생과 신입직원을 위해 사회복지시설의 세입·세출, 본예산 편성, 추경·전용·예비비·이월, 결산과 공고까지 한 해의 흐름으로 설명합니다."
 pubDate: 2026-08-09
-category: "사회복지 실무"
+category: "행정·회계"
 thumbnail: "/images/blog/26080902-social-welfare-budget-settlement-cycle.webp"
 heroImage: "/images/blog/26080902-social-welfare-budget-settlement-cycle.webp"
 draft: false
