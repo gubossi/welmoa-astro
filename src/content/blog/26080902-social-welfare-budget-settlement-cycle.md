@@ -5,7 +5,7 @@ pubDate: 2026-08-09
 category: "사회복지 실무"
 thumbnail: "/images/blog/26080902-social-welfare-budget-settlement-cycle.webp"
 heroImage: "/images/blog/26080902-social-welfare-budget-settlement-cycle.webp"
-draft: true
+draft: false
 featured: false
 ---
 
