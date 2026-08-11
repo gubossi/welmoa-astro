@@ -3,8 +3,8 @@ title: "출산휴가 들어가면 국민연금도 안 내나요? 출산전후휴
 description: "출산전후휴가 기간 국민연금은 무조건 납부예외가 될까요? 국민연금 기준소득월액 50% 기준부터 건강보험, 고용보험, 산재보험 처리까지 실무자가 알아야 할 내용을 정리합니다."
 pubDate: 2026-08-12
 category: "인사·노무"
-thumbnail: "/images/blog/26081201.webp"
-heroImage: "/images/blog/26081201.webp"
+thumbnail: "/images/blog/26081201-maternity-leave-social-insurance.webp"
+heroImage: "/images/blog/26081201-maternity-leave-social-insurance.webp"
 draft: false
 featured: false
 ---
@@ -130,7 +130,7 @@ featured: false
 
 휴가 시작일에 따라 실제 국민연금이 부과되는 달과 납부예외가 적용되는 달이 달라질 수 있기 때문입니다.
 
-![출산전후휴가 4대보험 업무를 함께 검토하는 실무자들](/images/blog/26081201-mid.webp)
+![출산전후휴가 4대보험 업무를 함께 검토하는 실무자들](/images/blog/26081201-maternity-leave-social-insurance-mid.webp)
 
 ## 2. 건강보험은 ‘납부예외’가 아니라 ‘납입고지 유예’
 
