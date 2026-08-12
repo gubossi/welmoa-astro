@@ -5,7 +5,7 @@ pubDate: 2026-08-13
 category: "인사·노무"
 thumbnail: "/images/blog/26081301-parental-leave-social-insurance.webp"
 heroImage: "/images/blog/26081301-parental-leave-social-insurance.webp"
-draft: true
+draft: false
 featured: false
 ---
 
@@ -229,6 +229,8 @@ featured: false
 | 추납하면 해당 기간 가입기간 인정 | 요건 충족 시 분할납부 가능 |
 
 따라서 실무에서는 **국민연금의 ‘납부예외’와 건강보험의 ‘납입고지 유예’를 같은 개념으로 생각하지 않는 것**이 중요합니다.
+
+![육아휴직 관련 4대보험 실무를 검토하는 업무 현장](/images/blog/26081301-parental-leave-social-insurance-mid.webp)
 
 ## 5. 고용·산재보험은 휴직 신고와 보수 처리를 확인합니다
 
