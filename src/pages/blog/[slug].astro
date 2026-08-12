@@ -12,8 +12,16 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
 const canonical = new URL(`/blog/${post.id}/`, Astro.site).href;
+
+const autoTocPostIds = new Set([
+  '26080903-social-welfare-purchase-process',
+  '26081201-maternity-leave-social-insurance',
+]);
+const tocHeadings = autoTocPostIds.has(post.id)
+  ? headings.filter((heading) => heading.depth === 2)
+  : [];
 
 const posts = (await getCollection('blog'))
   .filter((p) => !p.data.draft)
@@ -80,6 +88,16 @@ const nextPost = posts[currentIndex - 1];
       <hr />
 
       <div class="post-content">
+        {tocHeadings.length > 0 && (
+          <nav class="post-toc" aria-label="목차">
+            <h2>목차</h2>
+            <ul>
+              {tocHeadings.map((heading) => (
+                <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
+              ))}
+            </ul>
+          </nav>
+        )}
         <Content />
       </div>
 
