@@ -8,9 +8,6 @@ heroImage: "/images/blog/26060301.webp"
 draft: false
 featured: false
 ---
-
-# 환율 1,500원 시대, 복지기관 운영의 숨겨진 변화
-
 게시일 2026-06-03 · Welmoa 콘텐츠
 
 “환율이 복지와 무슨 상관이 있을까?”
