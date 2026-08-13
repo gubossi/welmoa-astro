@@ -15,13 +15,7 @@ const { post } = Astro.props;
 const { Content, headings } = await render(post);
 const canonical = new URL(`/blog/${post.id}/`, Astro.site).href;
 
-const autoTocPostIds = new Set([
-  '26080903-social-welfare-purchase-process',
-  '26081201-maternity-leave-social-insurance',
-]);
-const tocHeadings = autoTocPostIds.has(post.id)
-  ? headings.filter((heading) => heading.depth === 2)
-  : [];
+const tocHeadings = headings.filter((heading) => heading.depth === 2);
 
 const posts = (await getCollection('blog'))
   .filter((p) => !p.data.draft)
