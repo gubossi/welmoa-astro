@@ -10,8 +10,6 @@ heroImage: "/images/blog/payroll.webp"
 draft: false
 ---
 
-# 사회복지시설 가족수당 완전정복
-
 ## 실무 FAQ·협회 질의응답·감사사례 총정리
 
 가족수당은 사회복지시설 종사자들이 가장 흔하게 받는 수당 중 하나입니다.
