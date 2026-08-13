@@ -16,6 +16,9 @@ const { Content, headings } = await render(post);
 const canonical = new URL(`/blog/${post.id}/`, Astro.site).href;
 
 const tocHeadings = headings.filter((heading) => heading.depth === 2);
+const tocSplitIndex = Math.ceil(tocHeadings.length / 2);
+const tocLeft = tocHeadings.slice(0, tocSplitIndex);
+const tocRight = tocHeadings.slice(tocSplitIndex);
 
 const posts = (await getCollection('blog'))
   .filter((p) => !p.data.draft)
@@ -85,11 +88,21 @@ const nextPost = posts[currentIndex - 1];
         {tocHeadings.length > 0 && (
           <nav class="post-toc" aria-label="목차">
             <h2>목차</h2>
-<ul class:list={{ 'post-toc-columns': tocHeadings.length >= 6 }}>
-  {tocHeadings.map((heading) => (
-                <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
-              ))}
-            </ul>
+<div class:list={{ 'post-toc-grid': tocHeadings.length >= 6 }}>
+  <ul>
+    {tocLeft.map((heading) => (
+      <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
+    ))}
+  </ul>
+
+  {tocRight.length > 0 && (
+    <ul>
+      {tocRight.map((heading) => (
+        <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
+      ))}
+    </ul>
+  )}
+</div>
           </nav>
         )}
         <Content />
@@ -124,13 +137,11 @@ const nextPost = posts[currentIndex - 1];
 
 <style>
   @media (min-width: 769px) {
-    :global(.post-toc .post-toc-columns) {
-      columns: 2;
+    :global(.post-toc-grid) {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       column-gap: 40px;
-    }
-
-    :global(.post-toc .post-toc-columns > li) {
-      break-inside: avoid;
+      align-items: start;
     }
   }
 </style>
