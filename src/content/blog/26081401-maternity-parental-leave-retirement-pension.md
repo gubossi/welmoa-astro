@@ -3,17 +3,6 @@ title: "출산휴가, 육아휴직 기간 중엔 퇴직연금이 없나요?"
 description: "출산전후휴가와 육아휴직 기간에도 퇴직급여는 사라지지 않습니다. 퇴직금·DB형과 DC형의 차이부터 육아휴직 중 DC형 퇴직연금 부담금 계산, 산전·단기·분할 육아휴직 시 확인할 사항까지 정리합니다."
 pubDate: 2026-08-14
 category: "인사·노무"
-tags:
-  - 출산휴가
-  - 출산전후휴가
-  - 육아휴직
-  - 퇴직금
-  - 퇴직연금
-  - DB형
-  - DC형
-  - 육아휴직 퇴직연금
-  - 사회복지시설
-  - 사회복지사
 image: "/images/blog/26081401-maternity-parental-leave-retirement-pension.webp"
 draft: true
 ---
