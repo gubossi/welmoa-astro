@@ -89,18 +89,18 @@ const nextPost = posts[currentIndex - 1];
           <nav class="post-toc" aria-label="목차">
             <h2>목차</h2>
 <div class:list={{ 'post-toc-grid': tocHeadings.length >= 6 }}>
-  <ul>
+  <ol start="1">
     {tocLeft.map((heading) => (
       <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
     ))}
-  </ul>
+  </ol>
 
   {tocRight.length > 0 && (
-    <ul>
+    <ol start={tocSplitIndex + 1}>
       {tocRight.map((heading) => (
         <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
       ))}
-    </ul>
+    </ol>
   )}
 </div>
           </nav>
