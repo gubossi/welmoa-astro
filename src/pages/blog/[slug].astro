@@ -91,8 +91,8 @@ const nextPost = posts[currentIndex - 1];
         {tocHeadings.length > 0 && (
           <nav class="post-toc" aria-label="목차">
             <h2>목차</h2>
-            <ul>
-              {tocHeadings.map((heading) => (
+<ul class:list={{ 'post-toc-columns': tocHeadings.length >= 6 }}>
+  {tocHeadings.map((heading) => (
                 <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
               ))}
             </ul>
@@ -127,3 +127,16 @@ const nextPost = posts[currentIndex - 1];
     </article>
   </section>
 </BaseLayout>
+
+<style>
+  @media (min-width: 769px) {
+    :global(.post-toc .post-toc-columns) {
+      columns: 2;
+      column-gap: 40px;
+    }
+
+    :global(.post-toc .post-toc-columns > li) {
+      break-inside: avoid;
+    }
+  }
+</style>
