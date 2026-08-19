@@ -5,9 +5,9 @@ description: AI는 사회복지사의 일을 돕는 강력한 도구가 되었�
   달라야 하는지 생각해봅니다.
 draft: false
 featured: false
-heroImage: /images/contents/ai-social-welfare-01.webp
+heroImage:/images/blog/ai-social-welfare-01.webp
 pubDate: 2026-08-19
-thumbnail: /images/contents/ai-social-welfare-01.webp
+thumbnail:/images/blog/ai-social-welfare-01.webp
 title: 우리는 정말 AI를 활용하고 있는 걸까?
 ---
 
@@ -167,7 +167,7 @@ AI 시대에도 같은 일이 반복될 수 있습니다.
 방식의 일부가 됩니다.
 
 ![직원 두 명과 AI가 함께 업무를 정리하고 다음 실행으로 연결하는
-모습](/images/contents/ai-social-welfare-01-01.webp)
+모습](/images/blog/ai-social-welfare-01-01.webp)
 
 ## 그런데 작은 사회복지기관에서 그게 가능할까?
 
