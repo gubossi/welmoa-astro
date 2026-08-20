@@ -6,9 +6,9 @@ description: 사회복지 현장에는 이미 많은 데이터가 있습니다. 
   가능성을 생각해봅니다.
 draft: false
 featured: false
-heroImage: /images/contents/ai-social-welfare-02.webp
+heroImage: /images/blog/ai-social-welfare-02.webp
 pubDate: 2026-08-20
-thumbnail: /images/contents/ai-social-welfare-02.webp
+thumbnail: /images/blog/ai-social-welfare-02.webp
 title: AI 시대의 출발점은 AI가 아니라 '데이터 관리'라고 생각한다
 ---
 
@@ -261,7 +261,7 @@ AI가 데이터 관리의 중요성을 새롭게 만들어낸 것은 아닙니�
 저는 이것이 AI가 사회복지 현장에 가져올 수 있는 꽤 큰 변화라고
 생각합니다.
 
-![AI와 데이터 관리가 개인의 업무효율화를 넘어 조직의 업무혁신으로 이어지는 모습](/images/blog/000000001.webp)
+![AI와 데이터 관리가 개인의 업무효율화를 넘어 조직의 업무혁신으로 이어지는 모습](/images/blog/ai-social-welfare-02-01.webp)
 
 ## 개인에게는 업무효율화, 조직에게는 업무혁신
 
