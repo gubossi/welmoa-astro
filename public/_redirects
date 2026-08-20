@@ -1,8 +1,14 @@
-/blog/overtime-pay-guide/   /blog/overtime-pay/   301
-/blog/overtime-guide/       /blog/overtime-pay/   301
-/blog/annual-leave-guide/   /blog/annual-leave-substitute-holiday/   301
-/blog/payslip-guide/    /blog/new-worker-pay/    301
-/blog/social-worker-net-pay-2026/    /blog/take-home-pay/    301
-/blog/salary-structure/    /blog/salary-guide/    301
-/blog/salary-mistakes/    /blog/26062901-salary-mistakes/    301
-/blog/instructor-pay/    /blog/26070301-instructor-pay/    301
+/blog/overtime-pay-guide/   https://welmoa.kr/blog/overtime-pay/   301
+/blog/overtime-guide/       https://welmoa.kr/blog/overtime-pay/   301
+/blog/annual-leave-guide/   https://welmoa.kr/blog/annual-leave-substitute-holiday/   301
+/blog/payslip-guide/    https://welmoa.kr/blog/new-worker-pay/    301
+/blog/social-worker-net-pay-2026/    https://welmoa.kr/blog/take-home-pay/    301
+/blog/salary-structure/    https://welmoa.kr/blog/salary-guide/    301
+/blog/salary-mistakes/    https://welmoa.kr/blog/26062901-salary-mistakes/    301
+/blog/instructor-pay/    https://welmoa.kr/blog/26070301-instructor-pay/    301
+
+/   https://welmoa.kr/blog/   301
+/index.html   https://welmoa.kr/blog/   301
+/blog   https://welmoa.kr/blog/   301
+/blog/   https://welmoa.kr/blog/   301
+/blog/*   https://welmoa.kr/blog/:splat   301
