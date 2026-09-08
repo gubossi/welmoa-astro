@@ -7,6 +7,9 @@ const {
   article,
 } = Astro.props;
 
+// 운영자 영역에는 분석 초기화 코드 자체를 렌더링하지 않습니다.
+const excludeAnalytics = /^\/(feedback|admin)(\/|$)/.test(Astro.url.pathname);
+
 // 모든 공개 페이지가 welmoa.kr 기준의 self-canonical을 갖도록 정규화합니다.
 // www / 과거 서브도메인 등 호스트 차이로 동일 콘텐츠가 분산되는 것을 방지합니다.
 const canonicalUrl = canonical
@@ -53,26 +56,35 @@ const jsonLd = article && {
   {article?.updatedDate && <meta property="article:modified_time" content={article.updatedDate.toISOString()} />}
   {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TNGJX9WB9"></script>
-  <script is:inline>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  {!excludeAnalytics && (
+    <script is:inline>
+      (() => {
+        // 정적 HTML이 미리보기에서도 재사용되므로 실제 접속 호스트를 확인합니다.
+        const { hostname, pathname } = window.location;
+        if (!['welmoa.kr', 'www.welmoa.kr'].includes(hostname) ||
+            /^\/(feedback|admin)(\/|$)/.test(pathname)) return;
 
-    gtag('config', 'G-4TNGJX9WB9');
-  </script>
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+        window.gtag('config', 'G-4TNGJX9WB9');
 
-  <!-- Naver Analytics -->
-  <script src="https://wcs.pstatic.net/wcslog.js"></script>
-  <script is:inline>
-    if (!window.wcs_add) window.wcs_add = {};
-    window.wcs_add["wa"] = "c4e4f76e4b7f40";
+        const googleTag = document.createElement('script');
+        googleTag.async = true;
+        googleTag.src = 'https://www.googletagmanager.com/gtag/js?id=G-4TNGJX9WB9';
+        document.head.appendChild(googleTag);
 
-    if (window.wcs) {
-      wcs_do();
-    }
-  </script>
+        if (!window.wcs_add) window.wcs_add = {};
+        window.wcs_add['wa'] = 'c4e4f76e4b7f40';
+        const naverTag = document.createElement('script');
+        naverTag.src = 'https://wcs.pstatic.net/wcslog.js';
+        naverTag.onload = () => {
+          if (window.wcs) window.wcs_do();
+        };
+        document.head.appendChild(naverTag);
+      })();
+    </script>
+  )}
 
   <link rel="stylesheet" href="/styles/global.css?v=20260802-5" />
 </head>
